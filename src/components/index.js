@@ -24,10 +24,10 @@ function Header (){
             <li><Link className="a">Portfolio</Link></li>
             <li><Link className="a">Contact</Link></li>
             <ul className="social">
-                <li><img src={linkdin}/></li> 
-                <li><img src={git}/></li> 
-                <li><img src={face}/></li> 
-                <li><img src={insta}/></li> 
+                <li><a href="https://www.linkedin.com/in/fabiano-fregnani-8984051a7/" target="_blank"><img src={linkdin}/></a></li> 
+                <li><a href="https://github.com/fregnani123" target="_blank"><img src={git}/></a></li> 
+                <li><a href="https://www.facebook.com/fabiano.fregnani" target="_blank"><img src={face}/></a></li> 
+                <li><a href="https://www.instagram.com/fabiano_fregnani/" target="_blank"><img src={insta}/></a></li> 
             </ul>
             </ul>
             </nav>
