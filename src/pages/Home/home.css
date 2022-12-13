@@ -5,6 +5,9 @@
 }
 .contents{
     overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
 }
 
 .bgVideo{
@@ -22,21 +25,15 @@ animation-duration: 2s;
 font-family: 'Zen Dots',cursive;
 white-space: nowrap;
 text-align: center;
-color: rgb(255, 255, 255);
+color: rgb(185, 185, 185);
 font-size: 50px;
 margin-top: 100px;
 }
 
 .fabiano{
 font-size: 35px;
-margin-left: -119px;
 font-family:'KoHo', sans-serif;
-color: rgb(255, 255, 255);
-}
-.f1{
-width: 18px;
-height: 40px;
-
+color: rgb(185, 185, 185);
 }
 
 @media (max-width: 600px){
@@ -48,9 +45,7 @@ white-space: pre-wrap;
 
 .fabiano{
 font-size: 25px;
-margin-left: -119px;
 font-family:'KoHo', sans-serif;
-color: rgb(255, 255, 255);
 }
 
 .f1{
