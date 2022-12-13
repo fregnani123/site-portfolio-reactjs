@@ -1,7 +1,7 @@
 
 @keyframes movimento {
-    100% {left: 0px;}
-    0% {left: 1000px;}
+    100% {top: 0px;}
+    0% {top: 600px;}
 }
 .contents{
     overflow: hidden;
@@ -17,34 +17,46 @@ position: absolute;
 
 .dev{
 position: relative;
-margin-top: 30vh;
 animation: movimento;
-animation-duration: 10s;
+animation-duration: 2s;
 font-family: 'Zen Dots',cursive;
 white-space: nowrap;
 text-align: center;
-color: rgb(252, 252, 252);
+color: rgb(255, 255, 255);
 font-size: 50px;
-margin-top: 150px;
-text-shadow:
-0 1px #808d93,
--1px 0 #cdd2d5,
--1px 2px #808d93,
--2px 1px #cdd2d5,
--2px 3px #808d93,
--3px 2px #cdd2d5,
--3px 4px #808d93,
--4px 3px #cdd2d5,
--4px 5px #808d93,
--5px 4px #cdd2d5,
--5px 6px #808d93,
--6px 5px #cdd2d5,
--6px 7px #808d93,
--7px 6px #cdd2d5,
--7px 8px #808d93,
--8px 7px #cdd2d5;
+margin-top: 100px;
+}
+
+.fabiano{
+font-size: 35px;
+margin-left: -119px;
+font-family:'KoHo', sans-serif;
+color: rgb(255, 255, 255);
+}
+.f1{
+width: 18px;
+height: 40px;
 
 }
 
+@media (max-width: 600px){
+.dev {
+margin-top: 80px;    
+font-size: 50px;
+white-space: pre-wrap;
+}
 
+.fabiano{
+font-size: 25px;
+margin-left: -119px;
+font-family:'KoHo', sans-serif;
+color: rgb(255, 255, 255);
+}
+
+.f1{
+width: 15px;
+height: 30px;
+}
+
+}
    

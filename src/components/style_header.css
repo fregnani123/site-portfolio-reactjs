@@ -18,6 +18,7 @@ margin: 0;
 color: black;
 text-decoration: none;
 font-family: sans-serif;
+
 }
 
 .a:hover {
@@ -91,7 +92,7 @@ text-align: center;
 } 
 
 .nav.active .menu {
-height: calc(53vh - 70px);
+height: calc(340px - 70px);
 visibility: visible; 
 }
 
