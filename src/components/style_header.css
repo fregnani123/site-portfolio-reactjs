@@ -12,19 +12,19 @@ margin: 0;
 
 } 
 
-.a {
+.link {
 text-decoration: none;
 font-family: sans-serif;
 font-size: 15px;
     }
 
-a:hover {
+.link:hover {
 background: rgba(185, 185, 185)
 }
 
-.logo {
- width: 60px;
- height: 60px;
+.logoHeader {
+ width: 90px;
+ height: auto;
 }
 
 .header{ 
@@ -35,7 +35,6 @@ align-items: center;
 padding: 1rem;
 justify-content:space-between;
 background-color: var(--cor4);
-
 }
 
 .menu{display: flex;
@@ -43,83 +42,17 @@ list-style: none;
 gap: .5rem;
 }
 
-.menu .a {color: var(--cor3);
+.menu .link {color: var(--cor3);
 display: block;
 padding: .5rem;
 
 }
 
-.menu .a:hover{
+.menu .link:hover{
 color: black;
 }
 
 .btn-mobile {display: none;}
-img{
-    width: 50px;
-    
-}
-.social {
-gap: 20px;
-position: absolute;
-bottom: 0;
-left: 0;
-list-style: none;
-padding-top: .5rem;
-background-color: rgb(15, 56, 88);
-box-sizing: border-box;
-width: 100%;
-text-align: center;
-height:0;
-transition: .6s;
-display: flex;
-bottom: -10px;
-justify-content: center;
-border-top: 2px solid rgba(0, 0, 0, 0.062);
-}
-.contact{
- position: absolute;
- bottom: 0;
- left: 0;
- list-style: none;
- padding-top: .5rem;
- background-color:var(--cor1);
- box-sizing: border-box;
- width: 100%;
- text-align: center;
- height: calc(100vh - 70px);
- transition: .6s;
-
-}
-.linkedin{display: none;}
-.git{display: none;}
-.face{display: none;}
-.insta{display: none;}
-
-.contactH1{
-margin-top: 30px;
-margin-bottom: 20px;
-font-size: 80px;
-}
-
-.pc{border-top: 1px solid;}
-
-.contGrande {
-display: flex;
-background-color: rgba(102, 51, 153, 0);
-list-style: none;
-justify-content: center;
-margin-top: 50px;
-border-bottom: 1px solid;
-}
-/*abaixo font-size das img das midias sociais*/ 
-.linkedin1{width: 100px;
-padding: 10px;}
-.git1{width: 100px;
-padding: 10px;}
-.face1{width: 100px;
-padding: 10px;}
-.insta1{width: 100px;
-padding: 10px;}
 
 
 /*Daqui para baixo começa o MenuMobile */
@@ -132,43 +65,8 @@ btn-mobile {display: block;
     border-bottom: 2px solid rgba(0, 0, 0, .05);;
 }
 
-.a{font-size: 18px;
+.link{font-size: 18px;
 }
-
-img{
-    width: 50px;
-    margin-top: 20px;
-    margin-left: 40px
-}
-
-.social {
-display: flex;
-gap: 20px;
-position: absolute;
-bottom: -10px;
-left: 0;
-list-style: none;
-padding-top: .5rem;
-background-color: var(--cor1);
-box-sizing: border-box;
-width: 100%;
-height:0;
-transition: .6s;
-text-align: center;
-}
-.contact{
- height: calc(100vh - 400px);
-}
-.linkedin {display: block;}
-.git{display: block;}
-.face{display: block;}
-.insta{display: block;}
-.contactH1{display: none;}
-.contGrande{
-display: flex;
-}
-
-
 
 .menu {
 display: block;
@@ -186,12 +84,12 @@ text-align: center;
 } 
 
 .nav.active .menu {
-height: calc(410px - 70px);
+height: calc(350px - 70px);
 visibility: visible; 
 }
 
-.menu .a { 
-padding: 2rem 0;
+.menu .link { 
+padding: 1.5rem 0;
 margin:0;
 border-bottom: 2px solid rgba(0, 0, 0, .05);
 }
@@ -241,40 +139,5 @@ nav.active .hamburger::before { transform: rotate(135deg);}
 nav.active .hamburger::after { transform: rotate(-135deg);
 top:-7px
  }
-
-
-.hamburgerExit{
-display: block;
-width: 30px;
-border-top: 2px solid black;
-color: black;
-position: absolute;
-right: 1rem;
-
-}
-.hamburgerExit::after{content: '';width: 30px;height: 2px;display: block;margin-top: 5px;transition: .3s;position: relative; background:currentColor;}
-    
-.hamburgerExit::before {
-content: '';
-width: 30px;
-height: 2px;
-display: block;
-margin-top: 5px;
-background: currentColor;
-}   
-
-.pc{
-position: absolute;
-top: 100px;
-left: 0;
-font-size:20px ;
-color: var(--cor1);
-background-color:var(--cor4);
-padding-bottom:110px ;
-padding-top: 15px;
-}
-.contGrande{
-    display: none;
-}
 
 }

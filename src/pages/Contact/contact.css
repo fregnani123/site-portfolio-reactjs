@@ -1,0 +1,111 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.contentContacts{
+background-color: rgba(133, 3, 255, 0);
+width: 100%;
+display: flex;
+height: calc(100vh - 70px);
+}
+
+.navContact{
+background: rgba(0, 128, 0, 0);
+width: 100%;
+position: relative;
+}
+
+.tituloContact {
+padding:0 1rem;
+font-size: 100px;
+background: rgba(255, 0, 0, 0);
+width: 400px;
+box-sizing: border-box;
+color: rgb(78, 76, 76);
+margin-left: 60px;
+}
+.frase{
+padding:0 1rem;
+font-size: 25px;
+color: rgb(78, 76, 76);
+margin-left: 60px;
+}
+
+.pc{
+padding: 20px;
+font-size: 30px;} 
+
+.linkedin{
+    display: flex;
+    text-decoration: none;
+    color:rgb(6, 91, 218);
+}
+.git{
+    display: flex;
+    text-decoration: none;
+    color: orangered;
+}
+.facebook{
+    display: flex;
+    text-decoration: none;
+    color: rgb(46, 46, 192);
+}
+.instagran{
+    display: flex;
+    text-decoration: none;
+    color: rgb(202, 42, 122);
+}
+
+.linkedin:hover{
+    border-bottom: 2px solid var(--cor1)
+}
+.git:hover{
+    border-bottom: 2px solid var(--cor1); 
+}
+.facebook:hover{
+    border-bottom: 2px solid var(--cor1); 
+}
+.instagran:hover{
+    border-bottom: 2px solid var(--cor1); 
+}
+
+.logos{
+display: flex;
+padding: 1rem;
+list-style:none;
+gap: 50px;
+margin-top: 20px;
+padding: 1.5rem;
+background: rgba(240, 236, 236, 0.63);
+height: 150px;
+box-sizing: border-box;
+width: 600px;
+position: relative;
+right: 0;
+margin-left: 60px;
+}
+
+img{
+width: 80px;
+}
+
+.conteiner{
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: absolute;
+    right: 0;
+    top: 70px;
+    display: none;
+}
+
+
+
+@media (max-width:600px){
+
+    .conteiner{display: none;}
+
+
+}
+
