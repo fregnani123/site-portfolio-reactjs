@@ -28,13 +28,31 @@ function Header (){
             <li><Link className="a">Portfolio</Link></li>
             <li><Link onClick={toggleContact} className="a">contact</Link></li>
             </ul>
-            </nav>
+
             <ul className= {contact? "social contact":"social"}>
-                <li><a href="https://www.linkedin.com/in/fabiano-fregnani-8984051a7/" target="_blank"><img src={linkdin}/></a></li> 
-                <li><a href="https://github.com/fregnani123" target="_blank"><img src={git}/></a></li> 
-                <li><a href="https://www.facebook.com/fabiano.fregnani" target="_blank"><img src={face}/></a></li> 
-                <li><a href="https://www.instagram.com/fabiano_fregnani/" target="_blank"><img src={insta}/></a></li> 
+                <li className="linkedin"><a href="https://www.linkedin.com/in/fabiano-fregnani-8984051a7/" target="_blank"><img src={linkdin}/></a></li> 
+                <li className="git"><a href="https://github.com/fregnani123" target="_blank"><img src={git}/></a></li> 
+                <li className="face"><a href="https://www.facebook.com/fabiano.fregnani" target="_blank"><img src={face}/></a></li> 
+                <li className="insta"><a href="https://www.instagram.com/fabiano_fregnani/" target="_blank"><img src={insta}/></a></li> 
+                <li><Link onClick={toggleContact}><div className="hamburgerExit"></div></Link></li>
+                <li><h1 className="contactH1">contact</h1>
+                <h2 className="pc">Get in touch with me via social media or email:
+                fabianofregnani@hotmail.com</h2><ul className="contGrande">
+                <a href="https://www.linkedin.com/in/fabiano-fregnani-8984051a7/" target="_blank">
+                    <li><img className="linkedin1" src={linkdin}></img></li>
+                </a>
+                <a href="https://github.com/fregnani123" target="_blank">
+                    <li><img className="git1" src={git}></img></li>
+                </a>
+                <a href="https://www.facebook.com/fabiano.fregnani" target="_blank">
+                    <li><img className="face1" src={face}></img></li>
+                </a>
+                <a href="https://www.instagram.com/fabiano_fregnani/" target='_blank'>
+                    <li><img className="insta1" src={insta}></img></li>
+                </a>
+                </ul></li>
             </ul>
+            </nav>
         </header>
     )
 }

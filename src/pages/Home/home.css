@@ -19,7 +19,6 @@ position: absolute;
 }
 
 .dev{
-position: relative;
 animation: movimento;
 animation-duration: 2s;
 font-family: 'Zen Dots',cursive;
