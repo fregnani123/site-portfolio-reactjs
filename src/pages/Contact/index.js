@@ -7,40 +7,35 @@ import instagran from "./img/insta.png";
 
 function Contact(){
     return(
-        <div>
-            <Header/>
-        <div className="contentContacts">
-        <body>
+        <div className="contents" id="contentsContacts">
+        <Header/>
+        <body className="body">
+        <h1 className="tituloContact">Contact.</h1>
+                <p className="frase">Get in touch with me via social media or email:<br/>fabianofregnani@hotmail.com</p>
+
             <nav className="navContact">
-                <h1 className="tituloContact">Contact</h1>
-                <p className="frase">Get in touch with me via social media or email.</p>
-                <ul className="logos">
-                    <a className="linkedin" href="">
+                <div className="logos">
+                 <ul>
+                    <a className="linkedin" href="https://www.linkedin.com/in/fabiano-fregnani-8984051a7/" target="_blank">
                         <li><img src={linkedin}></img></li><p className="pc">Linkedin</p>
                     </a>
-                    <a className="git" href="">
+                    <a className="git" href="https://github.com/fregnani123" target="_blank">
                         <li><img src={git}></img></li><p className="pc">Git</p>
                     </a>
                 </ul>  
-                <ul className="logos">  
-                    <a className="facebook" href="">
+                <ul>  
+                    <a className="facebook" href="https://www.facebook.com/fabiano.fregnani" target="_blank" >
                         <li><img src={facebook}></img></li><p className="pc">facebook</p>
                     </a>
-                    <a className="instagran" href="">
+                    <a className="instagran" href="https://www.instagram.com/fabiano_fregnani/" target="_blank">
                         <li><img src={instagran}></img></li><p className="pc">Instagran</p>
                     </a>
-                </ul>
-              
-            </nav>
-            <div className="conteiner">
-                <div className="quadrado-verde"></div>
-                <div className="quadrado-azul"></div>
-                <div className="quadrado-amarelo"></div>
+                 </ul>
                 </div>
-            <footer></footer>
+            </nav>
          </body>
+         
          </div>
-        </div>
     )
 }
 export default Contact;

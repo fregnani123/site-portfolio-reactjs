@@ -35,6 +35,8 @@ align-items: center;
 padding: 1rem;
 justify-content:space-between;
 background-color: var(--cor4);
+position: sticky;
+top:0;
 }
 
 .menu{display: flex;
