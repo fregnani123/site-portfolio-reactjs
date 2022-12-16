@@ -13,7 +13,7 @@ function Home() {
                 <source src={bgVideo} type="video/mp4" />
             </video>
             <Header />
-            <h1 className="dev"><p className="fabiano">Fabiano Fregnani</p>Front-End Developer</h1>
+            <h1 className="dev"><p className="fabianoHome">Fabiano Fregnani</p>Front-End Developer</h1>
         </div>
     )
 

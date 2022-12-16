@@ -7,8 +7,8 @@ function Portfolio(){
         <div>
             <Header/>
             <h1>
-                Portfolioooo
-            </h1>
+        Bem vindo - Portfolio - <br/> Página em contrução!</h1>
+            
         </div>
     )
 }

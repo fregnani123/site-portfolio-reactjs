@@ -1,41 +1,53 @@
+import React from "react";
 import Header from "../../components";
-import "../Contact/contact.css";
-import linkedin from "./img/linkedin.png";
-import git from "./img/git.png";
-import facebook from "./img/face.png";
-import instagran from "./img/insta.png";
+import "../../pages/Contact/contact.css"
+import fabiano from "../../components/img/euletras.jpg"
+import Footer from "../../components/footer";
+import Linkedin from "../Contact/img/linkedin.png";
+import git from "../Contact/img/Git.png"
+import facebook from "../Contact/img/face.png"
+import Instagran from "../Contact/img/insta.png"
+
 
 function Contact(){
-    return(
-        <div className="contents" id="contentsContacts">
-        <Header/>
-        <body className="body">
-        <h1 className="tituloContact">Contact.</h1>
-                <p className="frase">Get in touch with me via social media or email:<br/>fabianofregnani@hotmail.com</p>
+    return (
+           <div className="contentsContacts">
+            <Header/>
+            <div className="conteiner">
 
-            <nav className="navContact">
-                <div className="logos">
-                 <ul>
-                    <a className="linkedin" href="https://www.linkedin.com/in/fabiano-fregnani-8984051a7/" target="_blank">
-                        <li><img src={linkedin}></img></li><p className="pc">Linkedin</p>
+                <div className="r1">  
+
+                <div className="titulo">
+
+                <h1 className="contact
+            ">Contact.</h1>
+                    <p className="frase">Get in touch with me via social media or email.</p></div>
+                 <ul className="m1">
+                    <a className="linkedin" href="">
+                        <li className="liMidia"><img className="imgMidia" src={Linkedin}/>Linkedin</li>
                     </a>
-                    <a className="git" href="https://github.com/fregnani123" target="_blank">
-                        <li><img src={git}></img></li><p className="pc">Git</p>
-                    </a>
-                </ul>  
-                <ul>  
-                    <a className="facebook" href="https://www.facebook.com/fabiano.fregnani" target="_blank" >
-                        <li><img src={facebook}></img></li><p className="pc">facebook</p>
-                    </a>
-                    <a className="instagran" href="https://www.instagram.com/fabiano_fregnani/" target="_blank">
-                        <li><img src={instagran}></img></li><p className="pc">Instagran</p>
+                    <a className="git" href="">
+                        <li className="liMidia"><img className="imgMidia" src={git}/>Git</li>
                     </a>
                  </ul>
+
+                 <ul className="m2">
+                 <a className="instagran" href="">
+                        <li className="liMidia"><img className="imgMidia" src={Instagran}/>Instagran</li>
+                    </a>
+                    <a className="facebook" href="">
+                        <li className="liMidia"><img className="imgMidia" src={facebook}/>facebook</li>
+                    </a>
+                    </ul>
+
                 </div>
-            </nav>
-         </body>
-         
-         </div>
-    )
+                <div className="r2">
+                 <img className="fabiano" src={fabiano} />
+                </div>
+
+            </div> 
+            <Footer/>
+           </div>)
 }
+
 export default Contact;

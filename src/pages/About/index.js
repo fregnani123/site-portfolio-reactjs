@@ -6,7 +6,8 @@ function About() {
     return (
         <div>
             <Header/>
-       <h1>olaaaaaaaaaaaa</h1>
+       <h1>
+        Bem vindo - About - <br/> Página em contrução!</h1>
         </div>
     )
 }
