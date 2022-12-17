@@ -3,9 +3,6 @@ import Header from "../../components";
 import bgVideo from "../Home/Mundodigital.m4v"
 import "../Home/home.css"
 
-
-
-
 function Home() {
     return (
         <div className="contents">
