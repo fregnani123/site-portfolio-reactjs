@@ -8,7 +8,7 @@ margin: 0;
 --cor2:rgb(185, 185, 185); /*cor nome menu*/
 --cor3:rgb(185, 185, 185); /*cor links do menu */
 --cor4:rgb(15, 56, 88); /*cor do header */
---cor5:rgb(15, 56, 88); /*cor do menu mobile */
+--cor5:rgb(1, 3, 17); /*cor do menu mobile */
 
 } 
 
@@ -34,7 +34,7 @@ display: flex;
 align-items: center;
 padding: 1rem;
 justify-content:space-between;
-background-color: var(--cor4);
+background-color: rgb(1, 3, 17);
 position: sticky;
 top:0;
 }

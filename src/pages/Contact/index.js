@@ -44,8 +44,26 @@ function Contact(){
                 <div className="r2">
                  <img className="fabiano" src={fabiano} />
                 </div>
-
             </div> 
+            
+            <div className="email">
+                <span>
+                <h4>Send me an email</h4>
+                <p>Name</p>
+               <input></input>
+               <p>Email</p>
+               <input></input>
+               </span>
+               
+             <span>
+               <p className="message">Message</p>
+               <textarea id="story" name="story"
+               rows="10" cols="50">
+               </textarea> 
+             </span>
+             
+              </div>
+
             <Footer/>
            </div>)
 }

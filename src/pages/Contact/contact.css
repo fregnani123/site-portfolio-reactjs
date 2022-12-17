@@ -3,8 +3,9 @@
     padding: 0;
 }
 .fabiano{
-height: 80vh;
-width: auto;
+width: 100%;
+height: auto;
+
 }
 .contentsContacts{
         position: fixed;
@@ -21,7 +22,7 @@ width: auto;
     flex-wrap: wrap;
     justify-content: center;
     overflow-y: hidden;
-     
+   
 }
 
 .r2{
@@ -29,41 +30,56 @@ width: auto;
     background:rgb(255, 255, 255);
     justify-content: center;
     display: flex;
+    margin-top: 30px;
+    overflow-x: hidden;
+    padding-bottom: 40px;
     
  }
 
   /*social midia e imagem - ul li */
 .r1{
     width: 400px;
-    background-color:#f5000000;
+    background-color:#e0e0e000;
     display: block;
     margin: 0;
     box-sizing: border-box;
+    margin-top: 50px;
   
 }
 .linkedin{
  text-decoration: none;
  color: rgb(0, 86, 245);
- 
+}
+.linkedin:hover{
+    color: #333333;
 }
 .git{
     text-decoration: none;
     color: rgb(253, 112, 30);
 }
+.git:hover{
+    color: #333333;
+}
 .instagran{
 text-decoration: none;
 color: rgb(191, 24, 197);
+}
+.instagran:hover{
+    color: #333333;
 }
 .facebook{
 text-decoration: none;
 color: rgb(45, 30, 253);
 }
+.facebook:hover{
+    color: #333333;
+}
 
 .liMidia {
     list-style: none;
-    ;
     display: flex;
 }
+
   .m1{
     display: flex;
     gap: 100px;
@@ -97,6 +113,49 @@ color: rgb(45, 30, 253);
     line-height: 1.3;
     }
  /*css contact e texto - fim*/
+
+.email{
+    text-align: center;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: hidden;
+    padding-bottom: 1.5rem;
+    position: relative;
+    background: #8d313100;
+    box-sizing: border-box;
+    margin-top: -40px;
+    box-shadow: inset 3px 2px 4px rgba(0, 0, 0, 0.164);
+    
+}
+input {
+    width: 450px;
+    height: 40px;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+    border-style: 1px solid black;
+    margin-top: 5px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    border: #949494 solid 1px;
+    box-shadow: inset 0 1px 2px 0px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    }
+    
+.message {
+ margin-bottom: 10px;
+}
+h4{position: absolute;top: 0;
+text-align: center;
+font-size: 2rem;
+font-weight: 100;
+margin-top: 30px;
+
+}
 
  @media (max-width:400px){
     .euletras{
