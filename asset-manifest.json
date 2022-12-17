@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/site/static/css/main.358f4e93.css",
-    "main.js": "/site/static/js/main.14170590.js",
+    "main.css": "/site/static/css/main.0915521a.css",
+    "main.js": "/site/static/js/main.7c6ce20a.js",
     "static/js/787.dd4029b4.chunk.js": "/site/static/js/787.dd4029b4.chunk.js",
-    "static/media/bgVideo.m4v": "/site/static/media/bgVideo.a36b2fa5c20657ca5587.m4v",
+    "static/media/Mundodigital.m4v": "/site/static/media/Mundodigital.31caf38b3236b8f8b392.m4v",
     "static/media/insta.png": "/site/static/media/insta.e719d8b29f452a16302d.png",
-    "static/media/euletras.jpg": "/site/static/media/euletras.09a48d5d5c2c599b3990.jpg",
+    "static/media/euletras.jpg": "/site/static/media/euletras.6ffe3c251b60cc15b98c.jpg",
     "static/media/logo.png": "/site/static/media/logo.18b3b4847ae50a40d826.png",
     "static/media/face.png": "/site/static/media/face.4f037d961598aff2a0a4.png",
     "index.html": "/site/index.html",
-    "main.358f4e93.css.map": "/site/static/css/main.358f4e93.css.map",
-    "main.14170590.js.map": "/site/static/js/main.14170590.js.map",
+    "main.0915521a.css.map": "/site/static/css/main.0915521a.css.map",
+    "main.7c6ce20a.js.map": "/site/static/js/main.7c6ce20a.js.map",
     "787.dd4029b4.chunk.js.map": "/site/static/js/787.dd4029b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.358f4e93.css",
-    "static/js/main.14170590.js"
+    "static/css/main.0915521a.css",
+    "static/js/main.7c6ce20a.js"
   ]
 }
