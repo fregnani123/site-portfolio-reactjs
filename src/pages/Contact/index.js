@@ -56,12 +56,13 @@ function Contact(){
                </span>
                
              <span>
-               <p className="message">Message</p>
-               <textarea id="story" name="story"
+               <p className="message">Message
+               </p><button className="btnEmail">Send email</button>
+               <textarea className="textarea"
                rows="10" cols="50">
                </textarea> 
              </span>
-             
+            
               </div>
 
             <Footer/>
