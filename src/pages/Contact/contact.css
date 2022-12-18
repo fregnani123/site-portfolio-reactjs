@@ -23,17 +23,17 @@ height: auto;
     justify-content: center;
     overflow-y: hidden;
     margin-top: 60px;
-   
 }
 
 .r2{
     width: 600px;
+    height: auto;
     background:rgb(255, 255, 255);
     justify-content: center;
     display: flex;
     margin-top: 30px;
     overflow-x: hidden;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
     
  }
 
@@ -117,18 +117,17 @@ color: rgb(45, 30, 253);
 
 .email{
     text-align: center;
-    padding-top: 120px;
+    padding-top: 40px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     overflow-y: hidden;
     padding-bottom: 3rem;
-    position: relative;
-    background: #8d313100;
+    background: #1b010100;
     box-sizing: border-box;
-    margin-top: -40px;
-    box-shadow: inset 3px 2px 4px rgba(0, 0, 0, 0.164);
+    margin-top: 0px;
+    box-shadow: inset 3px 2px 4px rgba(51, 12, 12, 0.164);
     margin-bottom: 70px;
 }
 input {
@@ -140,26 +139,34 @@ input {
     margin-right: 30px;
     margin-bottom: 10px;
     font-family: sans-serif;
-    border: #949494 solid 1px;
-    box-shadow: inset 0 1px 2px 0px rgb(0 0 0 / 10%);
+    border:1px #525252 solid;
     border-radius: 5px;
+    padding: .7px
+
     }
     
 .message {
  margin-bottom: 10px;
+ margin-top: 50px;
 }
-h4{position: absolute;top: 0;
-text-align: center;
+h4{
+
 font-size: 2rem;
 font-weight: 100;
-margin-top: 30px;
+margin-bottom: 50px;
+
 }
 .btnEmail {
-    position: absolute;
-    bottom: 0;
-    padding: 10px;
+ height: auto;
+ width: 80px;
+ padding: .5rem;
+
 }
 
+textarea{
+    padding: .5rem;
+    font-size: 16px;
+}
  @media (max-width:500px){
 
     input{
@@ -202,5 +209,9 @@ margin-top: 30px;
 }
 .textarea{
     width: 290px;
+}
+
+.conteiner {
+    margin-top: -20px;
 }
  }

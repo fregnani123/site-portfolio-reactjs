@@ -23,46 +23,45 @@ function Contact(){
             ">Contact.</h1>
                     <p className="frase">Get in touch with me via social media or email.</p></div>
                  <ul className="m1">
-                    <a className="linkedin" href="">
+                    <a className="linkedin" href="https://www.linkedin.com/in/fabiano-fregnani-8984051a7/" target="_blank">
                         <li className="liMidia"><img className="imgMidia" src={Linkedin}/>Linkedin</li>
                     </a>
-                    <a className="git" href="">
+                    <a className="git" href="https://github.com/settings/profile" target="_blank">
                         <li className="liMidia"><img className="imgMidia" src={git}/>Git</li>
                     </a>
                  </ul>
 
                  <ul className="m2">
-                 <a className="instagran" href="">
+                 <a className="instagran" href="https://www.instagram.com/fabiano_fregnani/" target="_blank">
                         <li className="liMidia"><img className="imgMidia" src={Instagran}/>Instagran</li>
                     </a>
-                    <a className="facebook" href="">
+                    <a className="facebook" href="https://www.facebook.com/fabiano.fregnani/" target="_blank">
                         <li className="liMidia"><img className="imgMidia" src={facebook}/>facebook</li>
                     </a>
                     </ul>
-
                 </div>
                 <div className="r2">
                  <img className="fabiano" src={fabiano} />
                 </div>
             </div> 
-            
             <div className="email">
                 <span>
                 <h4>Send me an email</h4>
                 <p>Name</p>
-               <input></input>
+               <input ></input>
                <p>Email</p>
                <input></input>
                </span>
                
-             <span>
+             <span className="span2">
                <p className="message">Message
-               </p><button className="btnEmail">Send email</button>
+               </p>
                <textarea className="textarea"
                rows="10" cols="50">
                </textarea> 
+               <p className="btnEmail"><input className="btnEmail" type="submit"></input></p>
              </span>
-            
+             
               </div>
 
             <Footer/>
