@@ -163,12 +163,11 @@ margin-top: 30px;
  @media (max-width:500px){
 
     input{
-        width: 320px;
-        margin-left: 25px;}
+        width: 290px;
+        margin-left: 25px;
+        height: 30px;}
+
     h4{margin-left: 25px;}
-    .btnEmail{
-        margin-left: 50px;
-    }
 
     .contact{
         background: rgb(255, 255, 255);
@@ -202,6 +201,6 @@ margin-top: 30px;
     overflow-x: hidden;
 }
 .textarea{
-    width: 320px;
+    width: 290px;
 }
  }
