@@ -26,7 +26,7 @@ function Home() {
             </div>
             <div className="previa">
                 <span>
-                    <h4>some of my latest projects</h4>
+                    <h4 className="mylast">some of my latest projects</h4>
                     <ul className="portfolio" >
                         <a className="aHome" href="https://fregnani123.github.io/site/" target="_blank">My portfolio website - ReactJS
                             <li className="p">

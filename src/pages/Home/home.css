@@ -100,18 +100,21 @@ animation-duration: 2s;
     margin: auto;
     margin-bottom: 30px;
 }
-
+.mylast{
+    color: rgb(31, 65, 117);
+    font-size: 40px;
+}
 .p{
     width: 250px;
     height: 250px;
-    background: #ffffff;
+    background: rgba(31, 65, 117, 0.301);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.336);
-    margin-top: 5px;
+    margin-top: 10px;
 }
 .aHome{
-    color: black;
+    color: rgb(31, 65, 117);
     text-decoration: none;
     background: #dbdbdb;
     
@@ -212,8 +215,9 @@ textarea{
 .p{ margin: auto;
     width: 250px;
     height: 250px;
-    background: #ffffff;
+    background: rgba(31, 65, 117, 0.301);
     margin-bottom: 25px;
+    margin-top: 8px;
     
 }
 .aHome{
