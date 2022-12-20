@@ -4,27 +4,29 @@ margin: 0;
 }
 
 :root {
---cor1:rgb(185, 185, 185); /*cor linhas menu*/
---cor2:rgb(185, 185, 185); /*cor nome menu*/
---cor3:rgb(185, 185, 185); /*cor links do menu */
---cor4:rgb(15, 56, 88); /*cor do header */
---cor5:rgb(1, 3, 17); /*cor do menu mobile */
+--cor1:rgb(255, 255, 255); /*cor linhas menu*/
+--cor2:rgb(255, 255, 255); /*cor nome menu*/
+--cor3:rgb(255, 255, 255); /*cor links do menu */
+--cor4:rgb(66, 66, 66); /*cor do header */
+--cor5:rgb(66, 66, 66); /*cor do menu mobile */
 
 } 
 
 .link {
 text-decoration: none;
 font-family: sans-serif;
-font-size: 15px;
+font-size: 18px;
     }
 
 .link:hover {
-background: rgba(185, 185, 185)
+background: rgb(255, 255, 255);
+border-radius: 3px;
 }
 
 .logoHeader {
  width: 90px;
  height: auto;
+ margin-left: 30px;
 }
 
 .header{ 
@@ -34,8 +36,7 @@ display: flex;
 align-items: center;
 padding: 1rem;
 justify-content:space-between;
-background-color: rgb(1, 3, 17);
-position: sticky;
+background: rgb(66, 66, 66);
 top:0;
 }
 
@@ -56,10 +57,34 @@ color: black;
 
 .btn-mobile {display: none;}
 
+.externContact{
+    display: flex;
+    justify-content: center;
+    color: white;
+    list-style: none;
+    gap: 20px;
+    margin-right: 40px;
+}
+
+.imgWhats{
+    width: 40px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.imgWhats:hover{
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.externMobile{
+    display: none;
+}
 
 /*Daqui para baixo começa o MenuMobile */
 
-@media (max-width: 630px){
+@media (max-width: 700px){
 
 btn-mobile {display: block;
 }
@@ -74,7 +99,7 @@ btn-mobile {display: block;
 display: block;
 position: absolute;
 width: 100%;
-top: 70px;
+top: 90px;
 right: 0px;
 background-color: var(--cor5);
 height:0px;
@@ -86,7 +111,7 @@ text-align: center;
 } 
 
 .nav.active .menu {
-height: calc(370px - 90px);
+height: calc(450px - 90px);
 visibility: visible; 
 }
 
@@ -141,5 +166,23 @@ nav.active .hamburger::before { transform: rotate(135deg);}
 nav.active .hamburger::after { transform: rotate(-135deg);
 top:-7px
  }
+
+.externContact{
+    display: none;
+} 
+.externMobile{
+    display: flex;
+    justify-content: center;
+    color: white;
+    list-style: none;
+    gap: 20px;
+    margin-top: 1.5rem;
+}
+
+.imgWhats{
+    width: 40px;
+    padding: 5px;
+    box-sizing: border-box;
+}
 
 }

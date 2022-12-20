@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components";
 import "../../pages/Contact/contact.css"
-import fabiano from "../../components/img/euletras.jpg"
+import fabiano from "../../components/img/fabiano.png"
 import Footer from "../../components/footer";
 import Linkedin from "../Contact/img/linkedin.png";
 import git from "../Contact/img/Git.png"
