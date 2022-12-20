@@ -104,28 +104,38 @@ animation-duration: 2s;
 .p{
     width: 250px;
     height: 250px;
-    background: #dbdbdb;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.336);
+    margin-top: 5px;
 }
-a{
+.aHome{
     color: black;
+    text-decoration: none;
+    background: #dbdbdb;
+    
 }
 .printSite{
     width: 250px;
     height:250px;
     margin-top: 5px;
-    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.336);
 }
 .movimentacao{
     width: 250px;
     height:250px;
     margin-top: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.986);
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.336);
 }
 .nave{
     width: 250px;
     height:250px;
     margin-top: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.986);
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.336);
 }
 
 .message {
@@ -197,17 +207,18 @@ textarea{
 
 .portfolio{
     display: block; 
-    
 }
 
 .p{ margin: auto;
     width: 250px;
     height: 250px;
-    background: #dbdbdb;
-    margin-top: 40px;
+    background: #ffffff;
+    margin-bottom: 25px;
     
 }
-
+.aHome{
+    
+}
 
 
  }

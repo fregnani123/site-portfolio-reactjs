@@ -131,7 +131,7 @@ color: rgb(45, 30, 253);
     padding-bottom: 3rem;
     background: #ebebebe7;
     box-sizing: border-box;
-    box-shadow: inset 3px 2px 4px rgba(51, 12, 12, 0.164);
+    box-shadow: inset 3px 2px 4px rgba(51, 12, 12, 0.233);
 }
 input {
     width: 450px;
@@ -144,26 +144,23 @@ input {
     font-family: sans-serif;
     border:1px #525252 solid;
     border-radius: 5px;
-    padding: .7px
-
+    padding: 1px;
     }
+.nameInput{margin-top: 40px;}
     
 .message {
  margin-bottom: 10px;
  margin-top: 50px;
 }
-h4{
-
+.send{
 font-size: 2rem;
 font-weight: 100;
-margin-bottom: 50px;
-
+margin-bottom: 0px;
 }
 .btnEmail {
  height: auto;
  width: 80px;
  padding: .5rem;
-
 }
 
 textarea{

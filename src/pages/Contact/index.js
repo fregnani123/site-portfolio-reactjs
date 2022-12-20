@@ -44,13 +44,13 @@ function Contact(){
                 </div>
             </div> 
             <div className="email">
-                <span>
-                <h4>Send me an email</h4>
-                <p>Name</p>
-               <input ></input>
+                <div>
+                <h1 className="send">Send me an email</h1>
+                <p className="nameInput">Name</p>
+               <input></input>
                <p>Email</p>
                <input></input>
-               </span>
+               </div>
              <span className="span2">
                <p className="message">Message
                </p>
