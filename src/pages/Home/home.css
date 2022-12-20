@@ -82,7 +82,7 @@ animation-duration: 2s;
 
 .previa{
     text-align: center;
-    padding-top: 60px;
+    padding-top: 40px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -93,6 +93,41 @@ animation-duration: 2s;
     box-sizing: border-box;
     box-shadow: inset 3px 2px 4px rgba(51, 12, 12, 0.164);
 } 
+.portfolio{
+    display: flex; 
+    gap: 30px;
+    list-style: none;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.p{
+    width: 250px;
+    height: 250px;
+    background: #dbdbdb;
+}
+a{
+    color: black;
+}
+.printSite{
+    width: 250px;
+    height:250px;
+    margin-top: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.movimentacao{
+    width: 250px;
+    height:250px;
+    margin-top: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.986);
+}
+.nave{
+    width: 250px;
+    height:250px;
+    margin-top: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.986);
+}
+
 .message {
  margin-bottom: 10px;
  margin-top: 50px;
@@ -109,7 +144,7 @@ textarea{
     padding: .5rem;
     font-size: 16px;
 }
- @media (max-width:500px){
+ @media (max-width:700px){
     .fabianoHome{
         height: 300px;
         width: auto;
@@ -159,6 +194,22 @@ textarea{
 .conteiner {
     margin-top: -20px;
 }
+
+.portfolio{
+    display: block; 
+    
+}
+
+.p{ margin: auto;
+    width: 250px;
+    height: 250px;
+    background: #dbdbdb;
+    margin-top: 40px;
+    
+}
+
+
+
  }
 
 
