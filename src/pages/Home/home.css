@@ -1,86 +1,165 @@
 
-@keyframes movimento {
-    100% {top: 0px;}
-    0% {top: 500px;}
+*{
+    margin: 0;
+    padding: 0;
 }
-.content{
-    position: fixed;
-    width: 100%;
-    height: calc(100vh );
-    overflow: hidden;
-    overflow-x: hidden; 
-    justify-content: center;
-    background:#dbdbdb;
+
+@keyframes movimentos {
+    100% {bottom: 0px;}
+    0% {bottom: -500px;}
 }
-.conteudoHome{
-    background:#dbdbdb;
+
+.fabianoHome{
+width: 100%;
+height: 500px;
+background: #dbdbdb;
+position: relative;
+animation-name: movimentos;
+animation-duration: 2s;
+}
+.contentsHome{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        overflow: auto;
+        overflow-x: hidden; 
+        background: #dbdbdb;
+}
+.conteinerHome{
+    background: #dbdbdb;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    overflow-y: auto;
-    overflow-x: hidden;
-    padding: 0;
-    height: 100vh;
     justify-content: center;
-
-}
-.bgImage{
-width: 100%;
-height: auto;
-margin-top: 0px;
-box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.226);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-top: 0px;
 }
 
-.quadrado1{
+.r2Home{
     width: 600px;
-    background: rgba(219,219,219,255);
-    margin: auto;
-    margin-bottom: 0;
-    background:#dbdbdb;
-}
-.quadrado2{
-width: 600px;
-background:#dbdbdb;
-text-align: center;
-}
-
-.textQuadrado2{
-margin-top: 40px;
-font-size: 60px;
-color:rgb(32, 32, 32);;
-}
-.textQuadrado3{
-background:#dbdbdb;
-width: 100%;
-text-align: center;
-margin-top: 0;
-margin-top: 20px;
-}
-
-@media (max-width: 700px){
-
-.contents{
-overflow-y: hidden;
-}
-    
-.conteudoHome{
-display: block;
-overflow-x: hidden;
-padding: 0;
-overflow-y: auto;
-}
-.bgImage{
-    width: 100%;
     height: auto;
-}
-.quadrado1{
-    width: 100%;
-}
-.quadrado2{
-width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background: #dbdbdb;
+ }
+
+.r1Home{
+    width: 400px;
+    background: #dbdbdb;
+    display: block;
+    box-sizing: border-box;
+    margin: auto;
 }
 
+ /*css conteudo r1 e texto cabeçalho*/
+
+ .conteudoHome{
+    color: #444444;
+    font-size: 80px;
+    background: #dbdbdb;
+    }
+ .fraseHome{
+    font-size: 30px;
+    color: #303030;
+    line-height: 1.3;
+    background: #dbdbdb;
+    }
+
+    .name{
+   font-family: 'Dancing Script', cursive;
+   text-align: center;
+   font-size: 55px;
+   font-weight: 100;
+   color: rgb(31, 65, 117);
+    }
+ /*css previa do portfolio - fim*/
+
+.previa{
+    text-align: center;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: hidden;
+    padding-bottom: 3rem;
+    background: #dbdbdb;
+    box-sizing: border-box;
+    box-shadow: inset 3px 2px 4px rgba(51, 12, 12, 0.164);
+} 
+.message {
+ margin-bottom: 10px;
+ margin-top: 50px;
 }
+h4{
+
+font-size: 2rem;
+font-weight: 100;
+margin-bottom: 50px;
+
+}
+
+textarea{
+    padding: .5rem;
+    font-size: 16px;
+}
+ @media (max-width:500px){
+    .fabianoHome{
+        height: 300px;
+        width: auto;
+    } 
+
+    input{
+        width: 290px;
+        margin-left: 25px;
+        height: 30px;}
+
+    h4{margin-left: 25px;}
+
+    .conteudo{
+        background:#e0e0e0d8;
+        color: #333333;
+        font-size: 50px;
+        }
+        .fraseHome{
+            font-size: 18px;
+            padding-bottom: 20px;
+            }
+    .euletras{
+        width: 50%;
+        height: auto;
+    }
+    .r1{display: block;
+    overflow-x: hidden;}
+    .r2{overflow-x: hidden;}
+    .m1{display: block;}
+    .m2{display: block;
+    margin-top: 0px;}
+    .imgMidia{width: 40px;
+    }
+    .imgMidia{
+    margin-bottom: 25px;
+    }
+
+    .conteiner{overflow-x: hidden;}
+
+.email {
+    overflow-x: hidden;
+}
+.textarea{
+    width: 290px;
+}
+
+.conteiner {
+    margin-top: -20px;
+}
+ }
 
 
 

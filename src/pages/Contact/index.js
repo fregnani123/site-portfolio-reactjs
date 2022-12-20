@@ -30,7 +30,6 @@ function Contact(){
                         <li className="liMidia"><img className="imgMidia" src={git}/>Git</li>
                     </a>
                  </ul>
-
                  <ul className="m2">
                  <a className="instagran" href="https://www.instagram.com/fabiano_fregnani/" target="_blank">
                         <li className="liMidia"><img className="imgMidia" src={Instagran}/>Instagran</li>
@@ -52,7 +51,6 @@ function Contact(){
                <p>Email</p>
                <input></input>
                </span>
-               
              <span className="span2">
                <p className="message">Message
                </p>
@@ -61,7 +59,6 @@ function Contact(){
                </textarea> 
                <p className="btnEmail"><input className="btnEmail" type="submit"></input></p>
              </span>
-             
               </div>
 
             <Footer/>

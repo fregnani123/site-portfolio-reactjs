@@ -2,17 +2,16 @@
 footer{
     width: 100%;
     background:rgb(66, 66, 66);
-    height: 30px;
-    padding: 50;
-    position: relative;
-    text-align: center;
+    height: 40px;
+    text-align: center; 
     box-sizing: border-box;
 }
 
 .copy{
-   padding: 5px;
    font-size: 13px;
    color: white;
+   box-sizing: border-box;
+   padding: 10px;
 }
 
 .creditos{
@@ -28,7 +27,7 @@ color: rgb(250, 250, 250);
 
 @media(max-width:500px){
     .copy{
-        font-size: 8px;
+        font-size: 12px;
     }
 }
 
