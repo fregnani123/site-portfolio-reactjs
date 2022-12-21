@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/site/static/css/main.6e98dea0.css",
-    "main.js": "/site/static/js/main.41f80c64.js",
+    "main.css": "/site/static/css/main.eeaab53e.css",
+    "main.js": "/site/static/js/main.40b99f54.js",
     "static/js/787.dd4029b4.chunk.js": "/site/static/js/787.dd4029b4.chunk.js",
     "static/media/nave.png": "/site/static/media/nave.266782b2b1036b93f63a.png",
     "static/media/movimentacao.png": "/site/static/media/movimentacao.5bf0787d4d3d2e988ead.png",
     "static/media/fabiano.png": "/site/static/media/fabiano.fdd6e8383bab9ab330b4.png",
     "static/media/fabianoBg.png": "/site/static/media/fabianoBg.018d5c0c149630fee4ff.png",
     "static/media/printSite.png": "/site/static/media/printSite.204bc6ed9483d7d46d22.png",
+    "static/media/Portfolio.png": "/site/static/media/Portfolio.48f7bf04907518d02a8b.png",
     "static/media/insta.png": "/site/static/media/insta.e719d8b29f452a16302d.png",
     "static/media/logo.png": "/site/static/media/logo.18b3b4847ae50a40d826.png",
     "static/media/inBlack.png": "/site/static/media/inBlack.aac2bd0e899c2f82cb7b.png",
     "static/media/whatsBlack.png": "/site/static/media/whatsBlack.29a8e4bf94e92b005237.png",
     "static/media/face.png": "/site/static/media/face.4f037d961598aff2a0a4.png",
     "index.html": "/site/index.html",
-    "main.6e98dea0.css.map": "/site/static/css/main.6e98dea0.css.map",
-    "main.41f80c64.js.map": "/site/static/js/main.41f80c64.js.map",
+    "main.eeaab53e.css.map": "/site/static/css/main.eeaab53e.css.map",
+    "main.40b99f54.js.map": "/site/static/js/main.40b99f54.js.map",
     "787.dd4029b4.chunk.js.map": "/site/static/js/787.dd4029b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e98dea0.css",
-    "static/js/main.41f80c64.js"
+    "static/css/main.eeaab53e.css",
+    "static/js/main.40b99f54.js"
   ]
 }
