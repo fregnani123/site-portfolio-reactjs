@@ -12,17 +12,19 @@ background: #f6f6f6;
 .quadroPortfolio{
     display: block;
     justify-content: center;
-    height: 100vh;
+    margin-bottom: 20px;
 }
 
 .quadro1{
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 .quadro2{
     display: flex;
     justify-content: center;
     gap: 20px;
+    list-style: none;
 }
 .imgPortfolio{
 width: 500px;
@@ -31,8 +33,60 @@ margin-top: 20px;
 }
 
 .quadroLi{
-width: 250px;
-height: 250px;
-background: blue;
-list-style: none;
+    width: 250px;
+    height: 250px;
+    background: rgba(31, 65, 117, 0.301);
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.329);
+    text-align: center;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+.quadroLi:hover{
+    background: rgb(255, 255, 255);
+}
+
+.aPortfolio{
+    margin-top: 20px;
+    color: rgb(66, 66, 66);
+    text-decoration: none;
+    background: rgba(31, 65, 117, 0); 
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+}
+.sitePortfolio{
+    width: 250px;
+    height:250px;
+    margin-top: 5px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.336);
+    
+}
+
+@media(max-width:700px){
+    .quadro2{
+        display: block;
+        justify-content: center;
+        gap: 20px;
+        
+    }
+    .imgPortfolio{
+    width: 500px;
+    height: auto;
+    margin-top: 20px;
+    }
+    .quadroLi{
+    list-style: none;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 250px;
+    height:250px;
+    margin-top: 5px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.336);
+
+        }        
 }

@@ -116,9 +116,9 @@ animation-duration: 2s;
 .aHome{
     color: rgb(31, 65, 117);
     text-decoration: none;
-    background: #dbdbdb;
-    
+    background: #dbdbdb; 
 }
+
 .printSite{
     width: 250px;
     height:250px;
