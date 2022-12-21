@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.contentPortfolio{
+width: 100%;
+height: 100%;
+justify-content: center;
+background: #f6f6f6;
+}
+
+.quadroPortfolio{
+    display: block;
+    justify-content: center;
+    height: 100vh;
+}
+
+.quadro1{
+    display: flex;
+    justify-content: center;
+}
+.quadro2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.imgPortfolio{
+width: 500px;
+height: auto;
+margin-top: 20px;
+}
+
+.quadroLi{
+width: 250px;
+height: 250px;
+background: blue;
+list-style: none;
+}
