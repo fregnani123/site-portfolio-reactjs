@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contentsAbout{
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.877);
+}
+
+.ulAbout {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.lifab1 {
+    height: 400px;
+    width: 400px;
+    list-style: none;
+    z-index: -1;
+  border: 1px solid black;
+    
+}
+
+.fab1 {
+    height: 400px; 
+    width: 400px;
+ 
+}
+
+.lifab2 {
+    height: 400px;
+    width: 400px;
+    list-style: none;
+    position: absolute;
+    background-color: rgba(240, 248, 255, 0);
+}
+    
+
+.fab2 {
+    height: 400px;
+    width: 400px;
+}

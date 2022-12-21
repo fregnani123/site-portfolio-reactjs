@@ -103,6 +103,7 @@ animation-duration: 2s;
 .mylast{
     color: rgb(31, 65, 117);
     font-size: 40px;
+    text-decoration: none;
 }
 .p{
     width: 250px;
@@ -118,6 +119,7 @@ animation-duration: 2s;
     text-decoration: none;
     background: #dbdbdb; 
 }
+
 
 .printSite{
     width: 250px;

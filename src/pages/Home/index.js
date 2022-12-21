@@ -6,6 +6,7 @@ import Footer from "../../components/footer";
 import printSite from "../Home/printSite.png";
 import movimentacao from "../Home/movimentacao.png";
 import nave from "../Home/nave.png";
+import { Link } from "react-router-dom";
 
 function Home() {
     return (
@@ -26,7 +27,7 @@ function Home() {
             </div>
             <div className="previa">
                 <span>
-                    <h4 className="mylast">some of my latest projects</h4>
+                    <h4 className="mylast"><Link className="mylast" to="/Portfolio">Some of my latest projects</Link></h4>
                     <ul className="portfolio" >
                         <a className="aHome" href="https://fregnani123.github.io/site/" target="_blank">My portfolio website - ReactJS
                             <li className="p">
