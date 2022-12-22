@@ -7,6 +7,7 @@ width: 100%;
 height: 100%;
 justify-content: center;
 background: #f6f6f6;
+
 }
 
 .quadroPortfolio{
@@ -19,7 +20,9 @@ background: #f6f6f6;
     display: flex;
     justify-content: center;
     gap: 20px;
+    width: 100%;
 }
+
 .quadro2{
     display: flex;
     justify-content: center;
@@ -28,7 +31,6 @@ background: #f6f6f6;
 }
 .imgPortfolio{
 width: 500px;
-height: auto;
 margin-top: 20px;
 }
 
@@ -66,18 +68,26 @@ margin-top: 20px;
     
 }
 
-@media(max-width:700px){
+@media(max-width:800px){
+    
+    .contentPortfolio{
+        overflow-x: hidden;
+        text-align: center;}
+
+
     .quadro2{
         display: block;
         justify-content: center;
         gap: 20px;
-        
+       
     }
+   
     .imgPortfolio{
-    width: 500px;
-    height: auto;
-    margin-top: 20px;
-    }
+        width: 380px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        }
+
     .quadroLi{
     list-style: none;
     margin: auto;

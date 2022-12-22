@@ -168,6 +168,7 @@ textarea{
     font-size: 16px;
 }
  @media (max-width:500px){
+    
 
     input{
         width: 290px;
