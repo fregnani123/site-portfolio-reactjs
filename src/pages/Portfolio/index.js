@@ -25,7 +25,7 @@ function Portfolio(){
     <div className="quadro1">
         <h1><img className="imgPortfolio" src={imgPortflio}/></h1>
     </div>
-
+    
  <div>
     <ul className="quadro2">
         <a className="aPortfolio" href="https://fregnani123.github.io/site/" target="_blank">My portfolio website - ReactJS

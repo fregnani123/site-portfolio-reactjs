@@ -8,7 +8,7 @@ function About() {
         <div>
             <Header/>
        <div className="contentsAbout">
-        <h1>Pagina em construção! - Page under construction!</h1>
+        <h1>About</h1>
          <ul className="ulAbout">
             <li className="lifab1">
                 <img className="fab1" src={fab1}/>

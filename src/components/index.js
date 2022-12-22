@@ -2,10 +2,10 @@ import "../components/style_header.css";
 import { useState } from "react"
 import { Link } from "react-router-dom";
 import logo from "../components/img/logo.png";
-import whatsapp from "../components/img/whatsBlack.png";
-import linkedin from "../components/img/inBlack.png"
-import git from "../components/img/gitBlack.png"
-import insta from "../components/img/instaBlack.png";
+import whatsapp from "../components/img/whats.png";
+import linkedin from "../components/img/linkedin.png"
+import git from "../components/img/github.png"
+import insta from "../components/img/instagran.png";
 
 
 function Header() {
@@ -49,7 +49,7 @@ function Header() {
             <a href="https://www.linkedin.com/in/fabiano-fregnani-8984051a7/" target="_blank">
                 <li><img className="imgWhats" src={linkedin}/></li>
             </a>
-            <a href="https://github.com/fregnani123">
+            <a href="https://github.com/fregnani123" target="_blank">
                 <li><img className="imgWhats" src={git}/></li>
             </a>
             <a href="https://www.instagram.com/fabiano_fregnani/" target="_blank">

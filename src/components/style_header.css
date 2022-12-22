@@ -68,13 +68,13 @@ color: black;
 }
 
 .imgWhats{
-    width: 40px;
+    width: 45px;
     padding: 5px;
     box-sizing: border-box;
 }
 
 .imgWhats:hover{
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     padding: 5px;
     box-sizing: border-box;
     border-radius: 3px;

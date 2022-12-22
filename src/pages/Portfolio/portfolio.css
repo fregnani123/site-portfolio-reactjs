@@ -37,7 +37,7 @@ margin-top: 20px;
 .quadroLi{
     width: 250px;
     height: 250px;
-    background: rgba(31, 65, 117, 0.301);
+    background: rgb(255, 255, 255);
     border-radius: 5px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.329);
     text-align: center;
@@ -46,7 +46,7 @@ margin-top: 20px;
 }
 
 .quadroLi:hover{
-    background: rgb(255, 255, 255);
+    background: rgba(31, 65, 117, 0.199);
 }
 
 .aPortfolio{
