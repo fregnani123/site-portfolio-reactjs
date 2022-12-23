@@ -2,44 +2,56 @@
     margin: 0;
     padding: 0;
 }
-.contentsAbout{
-    justify-content: center;
+.principal {
     height: 100vh;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.877);
+    overflow-x: hidden;
+    background: #ffffff00;
+  
+}
+.fundoAbout{
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+    
+}
+.contentsAbout{
+    height: 100vh;
+    width: 100%;
+    position: relative;
 }
 
 .ulAbout {
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
+    margin-top: 0px;
+    position: relative;
+    background: rgba(102, 51, 153, 0);
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.253);
+   
+}
+li {
+    list-style:none;
+}
+.liAbout{
+    width: 400px;
+    text-align: center;
+    height: 500px;
+    box-shadow: -5px 1px 15px rgba(0, 0, 0, 0.315);
+    margin-top: 5px;
+}
+.lifabi {
+list-style: none;
+margin-left: 5px;
+background: rgba(78, 99, 138, 0);
+position: relative;
+margin-top: 5px;
 }
 
-.lifab1 {
-    height: 400px;
-    width: 400px;
-    list-style: none;
-    z-index: -1;
-  border: 1px solid black;
-    
+.fabi {
+    width: auto;
+    height: 500px;
+    background: #ffffff00;
+    top: 0;
+    left: 0;   
 }
 
-.fab1 {
-    height: 400px; 
-    width: 400px;
- 
-}
-
-.lifab2 {
-    height: 400px;
-    width: 400px;
-    list-style: none;
-    position: absolute;
-    background-color: rgba(240, 248, 255, 0);
-}
-    
-
-.fab2 {
-    height: 400px;
-    width: 400px;
-}
