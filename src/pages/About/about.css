@@ -4,8 +4,13 @@
 }
 @keyframes fotos {
     100%{right:0px;}
-    0%{right: 500px;}
+    0%{right: 400px;}
 }
+@keyframes fotos2 {
+    100%{bottom:0px;}
+    0%{bottom: 518px;}
+}
+
 .engrenagens{
     z-index: -1;
     position: absolute;
@@ -49,18 +54,25 @@ li {
    
 }
 .liAbout{
-    width: 518px; 
+    width: 400px; 
     height: 518px;
     position: relative;
     background: rgba(235,239,240,255);
     display: block;
     border-radius: 10px;
     background: rgb(255, 255, 255);
-    border: 1.5px solid #74677c;
+    border: 1px solid #74677c;
 }
 .pAbout {
     text-align: center;
-    
+    margin-top: 30px;
+}
+.ptext{
+    text-align: center;
+    padding-top: 10px;
+    padding: 20px;
+    font-size: 20px;
+    color: black;
 }
 
 .imgAbout{
@@ -74,22 +86,41 @@ li {
     position: absolute;
     left: 5px;
     top: 5px;
-    box-shadow: 1px 5px 10px rgb(147, 57, 207);
+    box-shadow: 1px 5px 10px rgb(67, 57, 207);
     border-radius: 10px;
-   
+}
+.imgReact{
+    width: 370px;
+    height: auto;
+    margin-top: 150px;
+    background: white;
+    border-radius: 10px;
+    border: white;
+}
+.gif2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    border:1px solid white;
+    border-radius: 10px;
 }
 
-.lifabiano {
+.liRoxo {
 position: relative;
 animation-name: fotos;
 animation-duration: 5s;
 z-index: -1;
 width: 400px;
+height: 515px;
 margin-top: 2px;
-background:#74677c;
+background:#6c677c;
 border-radius: 10px;
 margin-left: 5px;
 border: 1px solid white;
+text-align: center;
+
 }
 
 .fabi {
@@ -101,8 +132,26 @@ border: 1px solid white;
     border-radius: 10px;
   
 }
-.ulAbout{
-  
+
+@media(max-width:700px){
+    .ulAbout{
+  display: block;
+    }
+    .liAbout{
+        margin: auto;
+    }
+
+    .liRoxo{
+     margin: auto;
+     margin-top: 5px;
+     animation-name: fotos2;
+    animation-duration: 5s;
+    }
+   .gif2{
+    top: 5px;
+    left: 5px;
+    
+   }
 }
 
 

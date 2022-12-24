@@ -4,7 +4,7 @@ import "../components/footer.css"
 function Footer(){
     return (
         <footer>
-          <p className="copy">© 2022 Fabiano Fregnani - Front-End Developer.</p> 
+          <p className="copy">© 2023 Fabiano Fregnani - Front-End Developer.</p> 
         </footer>
     )
 }
