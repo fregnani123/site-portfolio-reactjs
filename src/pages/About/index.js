@@ -24,13 +24,12 @@ function About() {
                  <img className="fabi" src={fundo}/>
                  <p className="ptext">Hello, I'm Fabiano Fregnani, I'm from the south of Brazil, I'm looking for new opportunities in the development area. Access my <a href="https://www.linkedin.com/in/fabiano-fregnani-8984051a7/">Linkedin.</a></p>
             </li>
-            
             <li className="liRoxo">
             <p><img className="gif2" src={gif}/></p>
             <ul>
-              <li>Front-End development</li>
               <li><img className="iconFerramentas" src={iconHtml}/></li>
               <li><img className="iconFerramentas" src={iconCss}/></li>
+              <li className="frontEnd">Front-End development</li>
               <li><img className="iconFerramentas" src={iconJs}/></li>
               <li><img className="iconFerramentas" src={iconReact}/></li>
             </ul>

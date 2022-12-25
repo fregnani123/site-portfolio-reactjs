@@ -51,7 +51,6 @@
 }
 li {
     list-style:none;
-   
 }
 .liAbout{
     width: 400px; 
@@ -62,7 +61,6 @@ li {
     border-radius: 10px;
     background: rgb(255, 255, 255);
     border: 1px solid #74677c;
-
 }
 .pAbout {
     text-align: center;
@@ -97,6 +95,14 @@ li {
     background: white;
     border-radius: 10px;
     border: rgb(255, 255, 255);
+}
+.frontEnd{font-size: 22px;
+ width: 250px;
+ margin: auto;
+ margin-top: 10px;
+ border-radius: 10px;
+ font-weight: 600;
+ font-family: cursive;
 }
 .gif2{
     width: 100px;
