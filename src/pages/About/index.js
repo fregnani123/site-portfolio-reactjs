@@ -6,8 +6,10 @@ import engrenagens from "../About/img/Engrenagens.m4v";
 import imgAbout from "../About/img/about.jpg";
 import gif from "../About/img/gifs.gif";
 import Footer from "../../components/footer";
-import imgReact from "../About/img/frontend1.png"
-
+import iconHtml from "../About/img/html.png";
+import iconCss from "../About/img/css.png";
+import iconJs from "../About/img/js.png";
+import iconReact from "../About/img/react.png";
 
 
 function About() {
@@ -25,7 +27,13 @@ function About() {
             
             <li className="liRoxo">
             <p><img className="gif2" src={gif}/></p>
-             <img className="imgReact" src={imgReact}/>
+            <ul>
+              <li>Front-End development</li>
+              <li><img className="iconFerramentas" src={iconHtml}/></li>
+              <li><img className="iconFerramentas" src={iconCss}/></li>
+              <li><img className="iconFerramentas" src={iconJs}/></li>
+              <li><img className="iconFerramentas" src={iconReact}/></li>
+            </ul>
             </li>
             
          </ul>
