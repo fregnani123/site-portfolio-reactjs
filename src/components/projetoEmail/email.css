@@ -1,0 +1,82 @@
+.containerEmail{
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #777777;
+    color: #FFF;
+    padding: 14px;
+    
+  }
+  
+  .title{
+    margin-bottom: 14px;
+  }
+  
+  .form{
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input{
+    height: 34px;
+    border-radius: 4px;
+    border: 0;
+    padding: 0 8px;
+    margin: auto;
+  }
+  
+  .textarea{
+    margin: auto;
+    margin-bottom: 14px;
+    border-radius: 4px;
+    border: 0;
+    padding: 8px;
+    height: 94px;
+    resize: none;
+    width: 600px;
+  }
+  
+  .button{
+    height: 34px;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    background-color: #fdfdfd;
+    font-size: 18px;
+    transition: background-color, transform 0.8s;
+    margin: auto;
+    width: 300px;
+  }
+  
+  .button:hover{
+    background-color: #b6b6b6e7;
+    color: white; 
+  }
+
+input {
+    width: 600px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: normal;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    border:1px #525252 solid;
+    border-radius: 5px;
+    padding: 1px;
+    }
+.textP{
+    margin-top:15px ;
+}
+@media (max-width:700px){
+input{
+    width: 320px;
+}
+.textarea{
+    width: 320px;
+}
+}

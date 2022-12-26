@@ -1,24 +1,21 @@
 import React from "react";
 import Header from "../../components";
 import "../../pages/Contact/contact.css"
-import fabiano from "../../components/img/fabiano.png"
+import fabiano from "../../pages/Contact/img/fabiano1.jpg"
 import Footer from "../../components/footer";
 import Linkedin from "../Contact/img/linkedin.png";
 import git from "../Contact/img/Git.png"
 import facebook from "../Contact/img/face.png"
 import Instagran from "../Contact/img/insta.png"
-
+import Email from "../../components/email";
 
 function Contact(){
     return (
            <div className="contentsContacts">
             <Header/>
             <div className="conteiner">
-
                 <div className="r1">  
-
                 <div className="titulo">
-
                 <h1 className="contact
             ">Contact.</h1>
                     <p className="frase">Get in touch with me via social media or email.</p></div>
@@ -43,24 +40,7 @@ function Contact(){
                  <img className="fabiano" src={fabiano} />
                 </div>
             </div> 
-            <div className="email">
-                <div>
-                <h1 className="send">Send me an email</h1>
-                <p className="nameInput">Name</p>
-               <input></input>
-               <p>Email</p>
-               <input></input>
-               </div>
-             <span className="span2">
-               <p className="message">Message
-               </p>
-               <textarea className="textarea"
-               rows="10" cols="50">
-               </textarea> 
-               <p className="btnEmail"><input className="btnEmail" type="submit"></input></p>
-             </span>
-              </div>
-
+            <Email/>
             <Footer/>
            </div>)
 }

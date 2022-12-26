@@ -10,14 +10,16 @@ import iconHtml from "../About/img/html.png";
 import iconCss from "../About/img/css.png";
 import iconJs from "../About/img/js.png";
 import iconReact from "../About/img/react.png";
+import iconSkill from "../About/img/skill.jpg";
 
 
 function About() {
     return (
         <div className="principal">
         <video className="engrenagens" src={engrenagens} autoPlay loop muted type="mp4"/>
-       <div className="contentsAbout">
+
        <Header/>
+       <body>
          <ul className="ulAbout">
            <li className="liAbout">
                  <p className="pAbout"><img className="gif" src={gif}/><img className="imgAbout" src={imgAbout}/></p>
@@ -25,20 +27,26 @@ function About() {
                  <p className="ptext">Hello, I'm Fabiano Fregnani, I'm from the south of Brazil, I'm looking for new opportunities in the development area. Access my <a href="https://www.linkedin.com/in/fabiano-fregnani-8984051a7/">Linkedin.</a></p>
             </li>
             <li className="liRoxo">
-            <p><img className="gif2" src={gif}/></p>
-            <ul>
+              <h3>Front-End development</h3>
+              <ul className="gifUl">
+              <li><img className="iconFerramentas" src={gif}/></li>
+              <li><img className="iconFerramentas" src={iconSkill}/></li>
+              <li><img className="iconFerramentas" src={gif}/></li>
+            </ul>
+            <ul className="gifUl">
               <li><img className="iconFerramentas" src={iconHtml}/></li>
+              <li><img className="iconFerramentas" src={gif}/></li>
               <li><img className="iconFerramentas" src={iconCss}/></li>
-              <li className="frontEnd">Front-End development</li>
-              <li><img className="iconFerramentas" src={iconJs}/></li>
+              </ul>
+              <ul className="gifUl">
+              <li><img className="iconFerramentas" src={iconJs}/></li><li><img className="iconFerramentas" src={gif}/></li>
               <li><img className="iconFerramentas" src={iconReact}/></li>
             </ul>
             </li>
-            
-         </ul>
-         <Footer/>
+         </ul> 
+         </body>
+         <footer><p className="copy">© 2023 Fabiano Fregnani - Front-End Developer.</p> </footer>
        </div>
-        </div>
     )
 }
 export default About;

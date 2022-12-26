@@ -9,10 +9,8 @@ import insta from "../components/img/instagran.png";
 
 
 function Header() {
-
     const [active, setMode] = useState(false);
     const toggleMenu = () => { setMode(!active) };
-
     return (
         <header className="header">
             <img className="logoHeader" src={logo}></img>
