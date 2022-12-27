@@ -6,16 +6,16 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 
 function App() {
-  return (
+  return (<div>
     <Router>
       <Routes>
-        <Route path="/site" element={<Home/>}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/portfolio" element={<Portfolio/>}/>
         <Route path="/contact" element={<Contact/>}/>
       </Routes>
     </Router>
-    
+    </div>
   )
 }
 
