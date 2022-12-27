@@ -5,7 +5,7 @@ import emailjs from "@emailjs/browser";
 import Header from '../../components';
 import Footer from '../../components/footer';
 import linkedin from "../../pages/Contact/img/linkedin.png";
-import git from "../../pages/Contact/img/Git.png";
+import gitImg from "../../pages/Contact/img/gitImg.png";
 import face from "../../pages/Contact/img/face.png";
 import insta from "../../pages/Contact/img/insta.png";
 import Fabiano from "../../pages/Contact/img/fabiano1.jpg";
@@ -51,7 +51,7 @@ function Contact() {
             <li className='liContact'><img className='imgSocial' src={linkedin} /><p className='pSocial'>linkedin</p></li>
           </a>
         <a className='aContact' href="https://github.com/fregnani123" target="_blank">
-            <li className='liContact' id='liGit'><img className='imgSocial' src={git} /><p className='pSocial'>GitHub</p></li>
+            <li className='liContact' id='liGit'><img className='imgSocial' src={gitImg} /><p className='pSocial'>GitHub</p></li>
           </a>
         </ul>
         <ul className='ulContact'>
