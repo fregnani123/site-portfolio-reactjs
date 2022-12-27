@@ -47,18 +47,18 @@ function Contact() {
         <h1 className='contactTitle'>Contact.</h1>
         <h4 className='textContact'>Get in touch with me via social media or email.</h4>
         <ul className='ulContact'>
-          <a href="https://www.linkedin.com/in/fabiano-fregnani-8984051a7/" target="_blank" className='aContact'>
+          <a href="https://www.linkedin.com/in/fabiano-fregnani-8984051a7/" target="_blank" rel="noreferrer" className='aContact'>
             <li className='liContact'><img className='imgSocial' src={linkedin} /><p className='pSocial'>linkedin</p></li>
           </a>
-        <a className='aContact' href="https://github.com/fregnani123" target="_blank">
+        <a className='aContact' href="https://github.com/fregnani123" target="_blank" rel="noreferrer">
             <li className='liContact' id='liGit'><img className='imgSocial' src={gitImg} /><p className='pSocial'>GitHub</p></li>
           </a>
         </ul>
         <ul className='ulContact'>
-          <a className='aContact' href="https://www.facebook.com/fabiano.fregnani/" target="_blank">
+          <a className='aContact' href="https://www.facebook.com/fabiano.fregnani/" target="_blank" rel="noreferrer">
             <li className='liContact'><img className='imgSocial' src={face} /><p className='pSocial'>Facebook</p></li>
           </a>
-          <a className='aContact' href="https://www.instagram.com/fabiano_fregnani/" target="_blank">
+          <a className='aContact' href="https://www.instagram.com/fabiano_fregnani/" target="_blank" rel="noreferrer">
             <li className='liContact'><img className='imgSocial' src={insta} /><p className='pSocial'>Instagran</p></li>
           </a>
         </ul>

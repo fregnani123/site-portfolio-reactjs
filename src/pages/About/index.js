@@ -24,7 +24,7 @@ function About() {
            <li className="liAbout">
                  <p className="pAbout"><img className="gif" src={gif}/><img className="imgAbout" src={imgAbout}/></p>
                  <img className="fabi" src={fundo}/>
-                 <p className="ptext">Hello, I'm Fabiano Fregnani, I'm from the south of Brazil, I'm looking for new opportunities in the development area. Access my <a href="https://www.linkedin.com/in/fabiano-fregnani-8984051a7/">Linkedin.</a></p>
+                 <p className="ptext">Hello, I'm Fabiano Fregnani, I'm from the south of Brazil, I'm looking for new opportunities in the development area. Access my <a href="https://www.linkedin.com/in/fabiano-fregnani-8984051a7/" rel="noreferrer" >Linkedin.</a></p>
             </li>
             <li className="liRoxo">
               <h3>Front-End development</h3>

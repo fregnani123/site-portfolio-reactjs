@@ -24,16 +24,16 @@ function Header() {
                     <li><Link to="/contact" className="link">contact</Link></li>
                     <li>
                         <ul className="externMobile">
-            <a className="whatsap" href="https://api.whatsapp.com/send?phone=5548996607600" target="_blank">
+            <a className="whatsap" href="https://api.whatsapp.com/send?phone=5548996607600" target="_blank" rel="noreferrer">
                 <li><img className="imgWhats" src={whatsapp}/></li>
             </a>
-            <a href="https://www.linkedin.com/in/fabiano-fregnani-8984051a7/" target="_blank">
+            <a href="https://www.linkedin.com/in/fabiano-fregnani-8984051a7/" target="_blank" rel="noreferrer">
                 <li><img className="imgWhats" src={linkedin}/></li>
             </a>
-            <a href="https://github.com/fregnani123">
+            <a href="https://github.com/fregnani123" rel="noreferrer">
                 <li><img className="imgWhats" src={git}/></li>
             </a>
-            <a href="https://www.instagram.com/fabiano_fregnani/" target="_blank">
+            <a href="https://www.instagram.com/fabiano_fregnani/" target="_blank" rel="noreferrer">
                 <li><img className="imgWhats" src={insta}/></li>
             </a>
            </ul></li>
@@ -41,16 +41,16 @@ function Header() {
             </nav>
 
             <ul className="externContact">
-            <a className="whatsap" href="https://api.whatsapp.com/send?phone=5548996607600" target="_blank">
+            <a className="whatsap" href="https://api.whatsapp.com/send?phone=5548996607600" target="_blank" rel="noreferrer">
                 <li><img className="imgWhats" src={whatsapp}/></li>
             </a>
-            <a href="https://www.linkedin.com/in/fabiano-fregnani-8984051a7/" target="_blank">
+            <a href="https://www.linkedin.com/in/fabiano-fregnani-8984051a7/" target="_blank" rel="noreferrer">
                 <li><img className="imgWhats" src={linkedin}/></li>
             </a>
-            <a href="https://github.com/fregnani123" target="_blank">
+            <a href="https://github.com/fregnani123" target="_blank" rel="noreferrer">
                 <li><img className="imgWhats" src={git}/></li>
             </a>
-            <a href="https://www.instagram.com/fabiano_fregnani/" target="_blank">
+            <a href="https://www.instagram.com/fabiano_fregnani/" target="_blank" rel="noreferrer">
                 <li><img className="imgWhats" src={insta}/></li>
             </a>
            </ul>

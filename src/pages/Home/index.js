@@ -29,15 +29,15 @@ function Home() {
                 <span>
                     <h4 className="mylast"><Link className="mylast" to="/Portfolio">Some of my latest projects</Link></h4>
                     <ul className="portfolio" >
-                        <a className="aHome" href="https://fregnani123.github.io/site/" target="_blank">My portfolio website - ReactJS
+                        <a className="aHome" href="https://fregnani123.github.io/site/" target="_blank" rel="noreferrer">My portfolio website - ReactJS
                             <li className="p">
                                 <img className="printSite" src={printSite} /></li>
                         </a>
-                        <a className="aHome"  href="https://fregnani123.github.io/MovimentarNave/" target="_blank">Move with the keyboard A-W-S-D
+                        <a className="aHome"  href="https://fregnani123.github.io/MovimentarNave/" target="_blank" rel="noreferrer">Move with the keyboard A-W-S-D
                             <li className="p">
                                 <img className="movimentacao" src={movimentacao} /></li>
                         </a>
-                        <a className="aHome"  href="https://fregnani123.github.io/Projeto_nave/" target="_blank">spaceship animation
+                        <a className="aHome"  href="https://fregnani123.github.io/Projeto_nave/" target="_blank" rel="noreferrer">spaceship animation
                             <li className="p"><img className="nave" src={nave} /></li>
                         </a>
                     </ul>
