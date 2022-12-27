@@ -160,7 +160,9 @@ h3{
     color: rgb(31, 65, 117);
     font-weight: 400;
 }
-
+#footerAbout{
+    background: rgb(119, 111, 134);
+}
 @media(max-width:700px){
     .ulAbout{
     display: block;

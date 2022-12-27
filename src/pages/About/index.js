@@ -45,7 +45,7 @@ function About() {
             </li>
          </ul> 
          </body>
-         <footer><p className="copy">© 2023 Fabiano Fregnani - Front-End Developer.</p> </footer>
+         <footer id="footerAbout"><p className="copy">© 2023 Fabiano Fregnani - Front-End Developer.</p> </footer>
        </div>
     )
 }
