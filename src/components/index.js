@@ -18,7 +18,7 @@ function Header() {
             <nav className={active ? "nav active" : "nav"}>
                 <button onClick={toggleMenu} className="btn-mobile">Menu <div className="hamburger"></div></button>
                 <ul className="menu">
-                    <li><Link to="/site" className="link">Home</Link></li>
+                    <li><Link to="/" className="link">Home</Link></li>
                     <li><Link to="/About" className="link">About</Link></li>
                     <li><Link to="/Portfolio" className="link">Portfolio</Link></li>
                     <li><Link to="/contact" className="link">contact</Link></li>
