@@ -21,7 +21,7 @@ function Header() {
                     <li><Link to="/" className="link">Home</Link></li>
                     <li><Link to="/About" className="link">About</Link></li>
                     <li><Link to="/Portfolio" className="link">Portfolio</Link></li>
-                    <li><Link to="/contact" className="link">contact</Link></li>
+                    <li><Link to="/contact" className="link">Contact</Link></li>
                     <li>
                         <ul className="externMobile">
             <a className="whatsap" href="https://api.whatsapp.com/send?phone=5548996607600" target="_blank" rel="noreferrer">
