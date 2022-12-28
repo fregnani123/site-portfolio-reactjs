@@ -153,9 +153,20 @@ margin-left: 1rem;
 }
 
 @media (max-width:700px){
+  .contactTitle {
+    text-align: center;
+  }
+  .ulContact{
+    justify-content: center;
+  }
+  .fabianoDiv{
+   margin: auto;
+  }
+
   .textContact{
     font-size: 20px;
     margin-left: .5rem;
+    text-align: center;
   }
   .conteudoSocial{
     display: block;
