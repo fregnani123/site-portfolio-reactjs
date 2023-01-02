@@ -5,7 +5,7 @@ import "../Home/home.css";
 import Footer from "../../components/footer";
 import printSite from "../Home/printSite.png";
 import movimentacao from "../Home/movimentacao.png";
-import nave from "../Home/nave.png";
+import nave from "../Home/converter.png";
 import { Link } from "react-router-dom";
 
 function Home() {
@@ -37,7 +37,7 @@ function Home() {
                             <li className="p">
                                 <img className="movimentacao" src={movimentacao} /></li>
                         </a>
-                        <a className="aHome"  href="https://fregnani123.github.io/Projeto_nave/" target="_blank" rel="noreferrer">spaceship animation
+                        <a className="aHome"  href="https://fregnani123.github.io/Projeto_nave/" target="_blank" rel="noreferrer">Scurrency conversion
                             <li className="p"><img className="nave" src={nave} /></li>
                         </a>
                     </ul>
