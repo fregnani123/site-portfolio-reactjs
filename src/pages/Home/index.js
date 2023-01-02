@@ -37,7 +37,7 @@ function Home() {
                             <li className="p">
                                 <img className="movimentacao" src={movimentacao} /></li>
                         </a>
-                        <a className="aHome"  href="https://fregnani123.github.io/Projeto_nave/" target="_blank" rel="noreferrer">Scurrency conversion
+                        <a className="aHome"  href="https://fregnani123.github.io/converterMoedas/" target="_blank" rel="noreferrer">Scurrency conversion
                             <li className="p"><img className="nave" src={nave} /></li>
                         </a>
                     </ul>
