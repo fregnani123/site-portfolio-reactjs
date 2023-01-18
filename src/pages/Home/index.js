@@ -4,7 +4,7 @@ import bgImage from "../../components/img/fabianoBg.png";
 import "../Home/home.css";
 import Footer from "../../components/footer";
 import printSite from "../Home/printSite.png";
-import movimentacao from "../Home/movimentacao.png";
+import movimentacao from "../Home/cro.png";
 import nave from "../Home/converter.png";
 import { Link } from "react-router-dom";
 
@@ -29,11 +29,11 @@ function Home() {
                 <span>
                     <h4 className="mylast"><Link className="mylast" to="/Portfolio">Some of my latest projects</Link></h4>
                     <ul className="portfolio" >
-                        <a className="aHome" href="https://fregnani123.github.io/site/" target="_blank" rel="noreferrer">My portfolio website - ReactJS
+                        <a className="aHome" href="https://fabianofregnani.netlify.app/" target="_blank" rel="noreferrer">My portfolio website - ReactJS
                             <li className="p">
                                 <img className="printSite" src={printSite} /></li>
                         </a>
-                        <a className="aHome"  href="https://fregnani123.github.io/MovimentarNave/" target="_blank" rel="noreferrer">Move with the keyboard A-W-S-D
+                        <a className="aHome"  href="https://fregnani123.github.io/cronometro/" target="_blank" rel="noreferrer">Digital stopwatch
                             <li className="p">
                                 <img className="movimentacao" src={movimentacao} /></li>
                         </a>
