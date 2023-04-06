@@ -231,7 +231,7 @@ textarea{
 
  }
 
- @media (max-width:380px){
+ @media (max-width:500px){
     .fabianoHome{
         margin-left: -185px;
         height: 300px;
