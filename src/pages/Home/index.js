@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../components";
-import bgImage from "../../components/img/fabianoBg.png";
+import bgImage from "./printSite.png";
 import "../Home/home.css";
 import Footer from "../../components/footer";
 import printSite from "../Home/printSite.png";
