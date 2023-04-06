@@ -10,7 +10,7 @@
 }
 
 .fabianoHome{
-width: 100%;
+width: 80%;
 background: #dbdbdb;
 position: relative;
 animation-name: movimentos;
@@ -163,6 +163,7 @@ textarea{
     .fabianoHome{
         height: 300px;
         width: auto;
+        margin-left: -20px;
     } 
 
     input{
@@ -230,6 +231,13 @@ textarea{
 
  }
 
+ @media (max-width:380px){
+    .fabianoHome{
+        margin-left: -185px;
+        height: 300px;
+        width: auto;
+    } 
+ }
 
 
    
