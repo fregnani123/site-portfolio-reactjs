@@ -1,12 +1,19 @@
 import React from "react";
 import Header from "../../components";
-import bgImage from "./printSite.png";
+import bgImage from '../About/img/fabianoNovo.png';
 import "../Home/home.css";
 import Footer from "../../components/footer";
 import printGestao from "../Home/gestaoLite.png";
 import movimentacao from "../Home/cro.png";
 import nave from "../Home/converter.png";
 import { Link } from "react-router-dom";
+import htmlImg from '../About/img/html.png';
+import cssImg from '../About/img/css.png';
+import jsImg from '../About/img/js.png';
+import nodeImg from '../About/img/node-js.png';
+import reactImg from '../About/img/react.png';
+import typeImg from '../About/img/typescript.png';
+import mongodbImg from '../About/img/mongodb.png';
 
 function Home() {
     return (
@@ -18,11 +25,18 @@ function Home() {
                 </div>
                 <div className="r1Home">
                     <div className="titulo">
-                        <h1 className="name">Fabiano Fregnani</h1>
-                        <h2 className="conteudoHome
-                    ">&lt;Coder.&gt;</h2>
-                        <p className="fraseHome">
-                            Front-end developer with core skills in #html, #css, #Js, #ReactJs.</p></div>
+                        <h1 className="name">🅵🅰🅱🅸🅰🅽🅾 🅵🆁🅴🅶🅽🅰🅽🅸</h1>
+                        <p className="conteudoHome
+                    ">&lt;Fᴜʟʟ-Sᴛᴀᴄᴋ Dᴇᴠᴇʟᴏᴘᴇʀ&gt;</p>
+                        <ul className="fraseHome">
+                            <li><img className="imgSkills" src={htmlImg}/></li>
+                            <li><img className="imgSkills" src={cssImg}/></li>
+                            <li><img className="imgSkills" src={jsImg}/></li>
+                            <li><img className="imgSkills" src={nodeImg}/></li>
+                            <li><img className="imgSkills" src={reactImg}/></li>
+                            <li><img className="imgSkills" src={typeImg}/></li>
+                            <li><img className="imgSkills" src={mongodbImg}/></li>
+                        </ul></div>
                 </div>
             </div>
             <div className="previa">

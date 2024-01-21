@@ -10,7 +10,9 @@
 }
 
 .fabianoHome{
-width: 80%;
+width: 60%;
+padding: 7px;
+border-radius: 50%;
 background: #dbdbdb;
 position: relative;
 animation-name: movimentos;
@@ -34,6 +36,7 @@ margin-left:35px ;
     overflow-y: hidden;
     overflow-x: hidden;
     margin-top: 0px;
+    text-align: center;
 }
 
 .r2Home{
@@ -61,21 +64,34 @@ margin-left:35px ;
 
  .conteudoHome{
     color: #444444;
-    font-size: 80px;
+    font-size: 45px;
+    text-wrap: nowrap;
     background: #dbdbdb;
     text-align: center;
+    margin-left: -40px;
     }
+
  .fraseHome{
     font-size: 30px;
     color: #303030;
-    line-height: 1.3;
     background: #dbdbdb;
-    }
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    display: flex;}
+
+   .imgSkills{
+    width: 30px;
+    height: auto;
+    margin-top: 10px;
+   }
 
     .name{
    font-family: 'Dancing Script', cursive;
    text-align: center;
-   font-size: 55px;
+   font-size: 30px;
+   margin-left: -40px;
+   text-wrap: nowrap;
    font-weight: 100;
    color: rgb(31, 65, 117);
     }
