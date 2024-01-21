@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.abc54623.css",
-    "main.js": "/static/js/main.59edbc63.js",
+    "main.js": "/static/js/main.9414ff20.js",
     "static/js/787.dd4029b4.chunk.js": "/static/js/787.dd4029b4.chunk.js",
     "static/media/Engrenagens.m4v": "/static/media/Engrenagens.7839462a5a107a1e4242.m4v",
     "static/media/churrasco.png": "/static/media/churrasco.5f4bc68440d2294dfafa.png",
@@ -13,6 +13,7 @@
     "static/media/converter.png": "/static/media/converter.295e4ace9c813f3922f2.png",
     "static/media/fabiano.png": "/static/media/fabiano.0354f520627f1e7adf62.png",
     "static/media/fabiano1.jpg": "/static/media/fabiano1.b6c0c58530bbd6097bba.jpg",
+    "static/media/gestaoLite.png": "/static/media/gestaoLite.9a357db4915657a31ef0.png",
     "static/media/Portfolio.png": "/static/media/Portfolio.48f7bf04907518d02a8b.png",
     "static/media/insta.png": "/static/media/insta.e719d8b29f452a16302d.png",
     "static/media/logo.png": "/static/media/logo.18b3b4847ae50a40d826.png",
@@ -26,11 +27,11 @@
     "static/media/face.png": "/static/media/face.4f037d961598aff2a0a4.png",
     "index.html": "/index.html",
     "main.abc54623.css.map": "/static/css/main.abc54623.css.map",
-    "main.59edbc63.js.map": "/static/js/main.59edbc63.js.map",
+    "main.9414ff20.js.map": "/static/js/main.9414ff20.js.map",
     "787.dd4029b4.chunk.js.map": "/static/js/787.dd4029b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.abc54623.css",
-    "static/js/main.59edbc63.js"
+    "static/js/main.9414ff20.js"
   ]
 }
