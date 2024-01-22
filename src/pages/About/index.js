@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../components";
+import Header from "../../components/header";
 import "../About/about.css";
 import fundo from "../About/img/fabiano.png";
 import engrenagens from "../About/img/Engrenagens.m4v";
@@ -17,17 +17,19 @@ function About() {
     return (
         <div className="principal">
         <video className="engrenagens" src={engrenagens} autoPlay loop muted type="mp4"/>
-
        <Header/>
        <body>
          <ul className="ulAbout">
            <li className="liAbout">
                  <p className="pAbout"><img className="gif" src={gif}/><img className="imgAbout" src={imgAbout}/></p>
-                 <img className="fabi" src={fundo}/>
-                 <p className="ptext">Hello, I'm Fabiano Fregnani, I'm from the south of Brazil, I'm looking for new opportunities in the development area. Access my <a href="https://www.linkedin.com/in/fabiano-fregnani-8984051a7/" rel="noreferrer" >Linkedin.</a></p>
+              <p className="ptext">Olá! Sou um entusiasta da programação com dois anos de estudos ativos, em busca de oportunidades como desenvolvedor júnior para aplicar e expandir meus conhecimentos. Explore alguns dos meus projetos práticos e desafiadores aqui neste site. Meu comprometimento com o desenvolvimento pode ser visto no meu perfil do GitHub, o qual você pode conferir através dos links no cabeçalho do site.
+
+                Atualmente cursando o 3º semestre de Análise e Desenvolvimento de Sistemas, continuo a investir em meu crescimento profissional através de cursos e atualizações constantes. Apesar de estar no início da minha jornada acadêmica, estou entusiasmado para contribuir e aprender em um ambiente profissional.
+
+                Se sua empresa está em busca de um desenvolvedor júnior apaixonado por programação, comprometido com aprendizado contínuo e pronto para enfrentar desafios, ficaria grato pela oportunidade de integrar sua equipe. Estou animado para discutir como posso agregar valor ao seu time.</p>
             </li>
             <li className="liRoxo">
-              <h3>Front-End development</h3>
+              <h3>Full-Stack development</h3>
               <ul className="gifUl">
               <li><img className="iconFerramentas" src={gif}/></li>
               <li><img className="iconFerramentas" src={iconSkill}/></li>
@@ -45,7 +47,7 @@ function About() {
             </li>
          </ul> 
          </body>
-         <footer id="footerAbout"><p className="copy">© 2023 Fabiano Fregnani - Front-End Developer.</p> </footer>
+         {/* <footer id="footerAbout"><p className="copy">© 2024 Fabiano Fregnani - Front-End Developer.</p></footer> */}
        </div>
     )
 }

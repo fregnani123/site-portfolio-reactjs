@@ -1,33 +1,40 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 @keyframes movimentos {
-    100% {bottom: 0px;}
-    0% {bottom: -500px;}
+    0% {
+        top: -200px;
+    }
+
+    100% {
+        top: 0px;
+    }
 }
 
-.fabianoHome{
-width: 60%;
-padding: 7px;
-border-radius: 50%;
-background: #dbdbdb;
-position: relative;
-animation-name: movimentos;
-animation-duration: 2s;
-margin-left:35px ;
+.contentsHome {
+    position: relative;
 }
-.contentsHome{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        overflow: auto;
-        overflow-x: hidden; 
-        background: #dbdbdb;
+
+.fabianoHome {
+    width: 300px;
+    height: auto;
+    position: relative;
+    border-radius: 50%;
+    animation-name: movimentos;
+    animation-duration: 2s;
+    top: 0;
 }
-.conteinerHome{
+
+.header {
+    background-color:rgb(31, 65, 117);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.containerHome {
     background: #dbdbdb;
     display: flex;
     flex-direction: row;
@@ -35,13 +42,13 @@ margin-left:35px ;
     justify-content: center;
     overflow-y: hidden;
     overflow-x: hidden;
-    margin-top: 0px;
     text-align: center;
+    padding-top: 100px;
+    padding-bottom: 10px;
 }
 
-.r2Home{
-    width: 600px;
-    height: auto;
+.r2Home {
+    width: 450px;
     justify-content: center;
     display: flex;
     margin-top: 0px;
@@ -49,55 +56,49 @@ margin-left:35px ;
     overflow-y: hidden;
     padding-top: 0px;
     padding-bottom: 0px;
-    background: #dbdbdb;
- }
+}
 
-.r1Home{
-    width: 400px;
-    background: #dbdbdb;
+.r1Home {
     display: block;
     box-sizing: border-box;
     margin: auto;
 }
 
- /*css conteudo r1 e texto cabeçalho*/
-
- .conteudoHome{
+.conteudoHome {
     color: #444444;
-    font-size: 45px;
-    text-wrap: nowrap;
+    font-size: 65px;
+    white-space: nowrap;
     background: #dbdbdb;
     text-align: center;
-    margin-left: -40px;
-    }
+    justify-content: center;
+    width: 550px;
+}
 
- .fraseHome{
+.fraseHome {
+    margin-left: 20px;
     font-size: 30px;
     color: #303030;
-    background: #dbdbdb;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    display: flex;}
+    display: flex;
+}
 
-   .imgSkills{
+.imgSkills {
     width: 50px;
     height: auto;
     margin-top: 10px;
-   }
+}
 
-    .name{
-   /* font-family: 'Dancing Script', cursive; */
-   text-align: center;
-   font-size: 40px;
-   margin-left: -40px;
-   text-wrap: nowrap;
-   font-weight: 100;
-   color: rgb(31, 65, 117);
-    }
- /*css previa do portfolio - fim*/
+.name {
+    text-align: center;
+    font-size: 70px;
+    text-wrap: nowrap;
+    font-weight: 100;
+    color: rgb(31, 65, 117);
+}
 
-.previa{
+.previa {
     text-align: center;
     padding-top: 40px;
     display: flex;
@@ -109,20 +110,23 @@ margin-left:35px ;
     background: #dbdbdb;
     box-sizing: border-box;
     box-shadow: inset 3px 2px 4px rgba(51, 12, 12, 0.164);
-} 
-.portfolio{
-    display: flex; 
+}
+
+.portfolio {
+    display: flex;
     gap: 30px;
     list-style: none;
     margin: auto;
     margin-bottom: 30px;
 }
-.mylast{
+
+.mylast {
     color: rgb(31, 65, 117);
     font-size: 40px;
     text-decoration: none;
 }
-.p{
+
+.p {
     width: 250px;
     height: 250px;
     background: rgba(31, 65, 117, 0.301);
@@ -131,130 +135,140 @@ margin-left:35px ;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.336);
     margin-top: 10px;
 }
-.aHome{
+
+.aHome {
     color: rgb(31, 65, 117);
     text-decoration: none;
-    background: #dbdbdb; 
+    background: #dbdbdb;
 }
 
-
-.printSite{
+.printSite,
+.movimentacao,
+.nave {
     width: 250px;
-    height:250px;
-    margin-top: 5px;
-    border-radius: 3px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.336);
-}
-.movimentacao{
-    width: 250px;
-    height:250px;
-    margin-top: 5px;
-    border-radius: 3px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.336);
-}
-.nave{
-    width: 250px;
-    height:250px;
+    height: 250px;
     margin-top: 5px;
     border-radius: 3px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.336);
 }
 
 .message {
- margin-bottom: 10px;
- margin-top: 50px;
-}
-h4{
-
-font-size: 2rem;
-font-weight: 100;
-margin-bottom: 50px;
-
+    margin-bottom: 10px;
+    margin-top: 50px;
 }
 
-textarea{
+h4 {
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+textarea {
     padding: .5rem;
     font-size: 16px;
 }
- @media (max-width:700px){
-    .fabianoHome{
+
+@media (max-width: 700px) {
+    .name {
+        font-size: 30px;
+    }
+
+    .fabianoHome {
         height: 300px;
         width: auto;
-        margin-left: -20px;
-    } 
+    }
 
-    input{
+    .conteudoHome {
+        font-size: 30px;
+    }
+
+    input {
         width: 290px;
         margin-left: 25px;
-        height: 30px;}
+        height: 30px;
+    }
 
-    h4{margin-left: 25px;}
+    h4 {
+        margin-left: 25px;
+    }
 
-    .conteudo{
-        background:#e0e0e0d8;
+    .conteudo {
+        background: #e0e0e0d8;
         color: #333333;
         font-size: 50px;
-        }
-        .fraseHome{
-            font-size: 18px;
-            padding-bottom: 20px;
-            text-align: center;
-            }
-    .euletras{
-        width: 50%;
-        height: auto;
-    }
-    .r1{display: block;
-    overflow-x: hidden;}
-    .r2{overflow-x: hidden;}
-    .m1{display: block;}
-    .m2{display: block;
-    margin-top: 0px;}
-    .imgMidia{width: 40px;
-    }
-    .imgMidia{
-    margin-bottom: 25px;
     }
 
-    .conteiner{overflow-x: hidden;}
+    .fraseHome {
+        display: flex;
+        padding-bottom: 20px;
+        justify-content: center;
+    }
 
-.email {
-    overflow-x: hidden;
+    .imgSkills {
+        width: 40px;
+    }
+
+    .r1 {
+        display: block;
+        overflow-x: hidden;
+    }
+
+    .r2 {
+        overflow-x: hidden;
+    }
+
+    .m1 {
+        display: block;
+    }
+
+    .m2 {
+        display: block;
+        margin-top: 0px;
+    }
+
+    .imgMidia {
+        width: 40px;
+    }
+
+    .imgMidia {
+        margin-bottom: 25px;
+    }
+
+    .conteiner {
+        overflow-x: hidden;
+    }
+
+    .email {
+        overflow-x: hidden;
+    }
+
+    .textarea {
+        width: 290px;
+    }
+
+    .conteiner {
+        margin-top: -20px;
+    }
+
+    .portfolio {
+        display: block;
+    }
+
+    .p {
+        margin: auto;
+        width: 250px;
+        height: 250px;
+        background: rgba(31, 65, 117, 0.301);
+        margin-bottom: 25px;
+        margin-top: 8px;
+    }
 }
-.textarea{
-    width: 290px;
+
+@media (max-width: 500px) {
+    .r2Home {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+    }
 }
-
-.conteiner {
-    margin-top: -20px;
-}
-
-.portfolio{
-    display: block; 
-}
-
-.p{ margin: auto;
-    width: 250px;
-    height: 250px;
-    background: rgba(31, 65, 117, 0.301);
-    margin-bottom: 25px;
-    margin-top: 8px;
-    
-}
-.aHome{
-    
-}
-
-
- }
-
- @media (max-width:500px){
-    .fabianoHome{
-        margin-left: -185px;
-        height: 300px;
-        width: auto;
-    } 
- }
-
-
-   

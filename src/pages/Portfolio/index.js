@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../components";
+import Header from "../../components/header";
 import "../Portfolio/portfolio.css";
 import Footer from "../../components/footer";
 import imgPortflio from "../Portfolio/Portfolio.png";
@@ -28,7 +28,7 @@ function Portfolio(){
     
  <div>
     <ul className="quadro2">
-        <a className="aPortfolio" href="https://fregnani123.github.io/site/" target="_blank">My portfolio website - ReactJS
+                            <a className="aPortfolio" href="https://projetogestolite.netlify.app/" target="_blank">Projeto GestãoLite - MongoDb
             <li className="quadroLi"><img className="sitePortfolio" src={sitePortfolio}/></li>
         </a>
         <a className="aPortfolio" href="https://fregnani123.github.io/MovimentarNave/" target="_blank">Move with the keyboard A-W-S-D

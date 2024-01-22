@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import "../../pages/Contact/email.css"
 import emailjs from "@emailjs/browser";
-import Header from '../../components';
+import Header from '../../components/header';
 import Footer from '../../components/footer';
 import linkedin from "../../pages/Contact/img/linkedin.png";
 import gitImg from "../../pages/Contact/img/gitImg.png";

@@ -18,16 +18,15 @@ import mongodbImg from '../About/img/mongodb.png';
 function Home() {
     return (
         <div className="contentsHome">
-            <Header/>
-            <div className="conteinerHome">
+            <div className="containerHome">
+                <Header className='header' />
                 <div className="r2Home">
                     <img className="fabianoHome" src={bgImage} />
                 </div>
                 <div className="r1Home">
                     <div className="titulo">
-                        <h1 className="name">🄵🄰🄱🄸🄰🄽🄾 🄵🅁🄴🄶🄽🄰🄽🄸</h1>
-                        <p className="conteudoHome
-                    ">&lt;Fᴜʟʟ-Sᴛᴀᴄᴋ Dᴇᴠᴇʟᴏᴘᴇʀ&gt;</p>
+                        <h1 className="name">🄵🄰🄱🄸🄰🄽🄾 🄵🅁🄴🄶🄽🄰🄽🄸<br /><span className="conteudoHome">&lt;Fᴜʟʟ-Sᴛᴀᴄᴋ Dᴇᴠᴇʟᴏᴘᴇʀ&gt;</span>
+                    </h1>
                         <ul className="fraseHome">
                             <li><img className="imgSkills" src={htmlImg}/></li>
                             <li><img className="imgSkills" src={cssImg}/></li>
