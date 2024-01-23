@@ -10,6 +10,8 @@ margin: 0;
 --cor4:rgb(66, 66, 66); /*cor do header */
 --cor6:rgb(66, 66, 66); /*cor do menu mobile */
 /* --cor5:rgb(31, 65, 117); */
+--cor7:rgb(31, 65, 117); /*cor do menu mobile */
+/* --cor5:rgb(31, 65, 117); */
 
 } 
 
@@ -17,6 +19,7 @@ margin: 0;
 text-decoration: none;
 font-family: sans-serif;
 font-size: 18px;
+background-color: var(--cor7);
     }
 
 .link:hover {
@@ -45,6 +48,7 @@ width: 100%;
 .menu{display: flex;
 list-style: none;
 gap: .5rem;
+
 }
 
 .menu .link {color: var(--cor3);
