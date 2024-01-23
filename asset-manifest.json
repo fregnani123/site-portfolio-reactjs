@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c0be17ae.css",
-    "main.js": "/static/js/main.176e1645.js",
+    "main.js": "/static/js/main.fc180a42.js",
     "static/js/787.dd4029b4.chunk.js": "/static/js/787.dd4029b4.chunk.js",
     "static/media/Engrenagens.m4v": "/static/media/Engrenagens.7839462a5a107a1e4242.m4v",
     "static/media/churrasco.png": "/static/media/churrasco.5f4bc68440d2294dfafa.png",
@@ -22,22 +22,22 @@
     "static/media/instagran.png": "/static/media/instagran.a41633131e804c354411.png",
     "static/media/react.png": "/static/media/react.5d82549de056b6a64990.png",
     "static/media/cro.png": "/static/media/cro.109bebb31bc942fe196d.png",
-    "static/media/mongodb.png": "/static/media/mongodb.48dd75dc6bb9d303d273.png",
     "static/media/nodeBg.png": "/static/media/nodeBg.2d8f8f301da042921e63.png",
     "static/media/skill.jpg": "/static/media/skill.5a1807e6cc2125d63202.jpg",
     "static/media/calculadora.png": "/static/media/calculadora.5efe461688c52bb5f73f.png",
     "static/media/typescript.png": "/static/media/typescript.aaf2eef16538f623b70e.png",
+    "static/media/mongodb.png": "/static/media/mongodb.c13d07267aca4871101c.png",
     "static/media/css.png": "/static/media/css.44276a13f59e5c0e67e1.png",
     "static/media/html.png": "/static/media/html.1c0312ce171b502efb7d.png",
     "static/media/linkedin.png": "/static/media/linkedin.a8ecdd2196edbcc28de1.png",
     "static/media/face.png": "/static/media/face.4f037d961598aff2a0a4.png",
     "index.html": "/index.html",
     "main.c0be17ae.css.map": "/static/css/main.c0be17ae.css.map",
-    "main.176e1645.js.map": "/static/js/main.176e1645.js.map",
+    "main.fc180a42.js.map": "/static/js/main.fc180a42.js.map",
     "787.dd4029b4.chunk.js.map": "/static/js/787.dd4029b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c0be17ae.css",
-    "static/js/main.176e1645.js"
+    "static/js/main.fc180a42.js"
   ]
 }
