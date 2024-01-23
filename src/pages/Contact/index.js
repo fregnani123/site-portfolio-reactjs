@@ -8,7 +8,7 @@ import linkedin from "../../pages/Contact/img/linkedin.png";
 import gitImg from "../../pages/Contact/img/gitImg.png";
 import face from "../../pages/Contact/img/face.png";
 import insta from "../../pages/Contact/img/insta.png";
-import Fabiano from "../../pages/Contact/img/fabiano1.jpg";
+import Fabiano from "../../pages/Contact/img/fabiano1.png";
 
 
 function Contact() {

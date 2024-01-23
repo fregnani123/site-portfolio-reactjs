@@ -20,12 +20,27 @@
 .fabianoHome {
     width: 300px;
     height: auto;
+    border-radius: 50%;
+    height: auto;
     position: relative;
     border-radius: 50%;
     animation-name: movimentos;
     animation-duration: 2s;
     top: 0;
+   
 }
+.divPerfil{
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.spanPerfil{
+    width: 400px;
+    background-color:rgb(31, 65, 117);
+    border-radius: 50%;
+}
+
 
 .header {
     background-color:rgb(31, 65, 117);
@@ -82,6 +97,7 @@
     align-items: center;
     gap: 20px;
     display: flex;
+    margin-left: -10px;
 }
 
 .imgSkills {
@@ -170,9 +186,15 @@ textarea {
 
 @media (max-width: 700px) {
     .name {
-        font-size: 30px;
+        font-size: 23px;
     }
 
+    .divPerfil {
+        /* background-color: red; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        }
     .fabianoHome {
         height: 300px;
         width: auto;
@@ -262,9 +284,11 @@ textarea {
         margin-bottom: 25px;
         margin-top: 8px;
     }
+
 }
 
-@media (max-width: 500px) {
+@media (max-width: 350px) {
+   
     .r2Home {
         display: flex;
         align-items: center;

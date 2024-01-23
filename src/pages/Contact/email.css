@@ -5,6 +5,7 @@
 }
 
 .containerEmail{
+    
     min-height: 400px;
     display: flex;
     justify-content: center;
@@ -17,6 +18,7 @@
   }
   
   .title{
+   
     margin-bottom: 14px;
     color:rgb(31, 65, 117);
     font-weight: 400;
@@ -90,6 +92,7 @@ input {
     margin-top:15px;
 }
 .conteudoSocial{
+  padding-top: 70px;
   display: flex;
 }
 /* social midia */
@@ -100,7 +103,6 @@ input {
 .aContact:hover{
   color:rgb(4, 0, 255);
 }
-
 
 .social{
   margin-bottom: 20px;
@@ -119,6 +121,7 @@ input {
 }
 .pSocial{
 margin-left: 1rem;
+
 }
 
 .liContact{
@@ -136,6 +139,7 @@ margin-left: 1rem;
  margin-top: 30px;
 }
 .imgSocial{
+  
   width: 50px;
   height: 50px;
   margin-left: 20px;
